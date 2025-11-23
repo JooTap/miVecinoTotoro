@@ -17,10 +17,10 @@
       <BackwardsText>False</BackwardsText>
       <BuildTargets>Windows</BuildTargets>
       <ClipGUIControls>True</ClipGUIControls>
-      <ColorDepth>TrueColor</ColorDepth>
+      <ColorDepth>HighColor</ColorDepth>
       <CompressSpritesType>None</CompressSpritesType>
       <CustomDataDir IsNull="True" />
-      <CustomResolution>320,200</CustomResolution>
+      <CustomResolution>640,400</CustomResolution>
       <DebugMode>True</DebugMode>
       <DefaultRoomMaskResolution>1</DefaultRoomMaskResolution>
       <Description />
@@ -653,7 +653,20 @@
     <Rooms>
       <UnloadedRoomFolder Name="Main">
         <SubFolders />
-        <UnloadedRooms />
+        <UnloadedRooms>
+          <UnloadedRoom>
+            <Description>casa_salon</Description>
+            <Number>1</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description>casa_jardin</Description>
+            <Number>2</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Description>paradaDeBus</Description>
+            <Number>3</Number>
+          </UnloadedRoom>
+        </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
     <GUIs>
@@ -887,7 +900,18 @@
     <Dialogs>
       <DialogFolder Name="Main">
         <SubFolders />
-        <Dialogs />
+        <Dialogs>
+          <Dialog>
+            <ID>0</ID>
+            <Name>dDialog1</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+        </Dialogs>
       </DialogFolder>
     </Dialogs>
     <Cursors>
@@ -1329,7 +1353,28 @@
     </GlobalVariables>
     <Sprites>
       <SpriteFolder Name="Main">
-        <SubFolders />
+        <SubFolders>
+          <SpriteFolder Name="personajes">
+            <SubFolders />
+            <Sprites />
+          </SpriteFolder>
+          <SpriteFolder Name="fondos">
+            <SubFolders />
+            <Sprites />
+          </SpriteFolder>
+          <SpriteFolder Name="UI">
+            <SubFolders />
+            <Sprites />
+          </SpriteFolder>
+          <SpriteFolder Name="cursores">
+            <SubFolders />
+            <Sprites />
+          </SpriteFolder>
+          <SpriteFolder Name="props">
+            <SubFolders />
+            <Sprites />
+          </SpriteFolder>
+        </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="1" Height="1" ColorDepth="8" Resolution="Real" AlphaChannel="False">
             <Source>
