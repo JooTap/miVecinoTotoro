@@ -1,0 +1,120 @@
+:: StoryTitle
+casa_salon
+
+
+:: StoryData
+{
+  "ifid": "31F5234F-470B-4FE6-85DE-F033C897D020",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Inicio(Cinematica)",
+  "tag-colors": {
+    "NANNY": "orange",
+    "SATSUKI": "blue",
+    "MEI": "red",
+    "NANNY_2": "orange",
+    "MEI_2": "red",
+    "NANNY_3": "orange",
+    "SATSUKI_3": "blue",
+    "NANNY_4": "orange",
+    "MEI_3": "red",
+    "MEI_5": "red",
+    "MEI_4": "red",
+    "NANNY_5": "orange",
+    "AVANZAR-11": "purple"
+  },
+  "zoom": 1
+}
+
+
+:: AVANZAR [SATSUKI] {"position":"1100,375","size":"100,100"}
+Satsuki: ¡Nanny! ¡Nos hemos encontrado con unos bichitos negros en el desván! ¿Nos cuentas algo sobre los animalitos mágicos que viven en esta casa?
+
+[[AVANZAR-2]]
+
+
+:: AVANZAR-10 [MEI_3] {"position":"2475,375","size":"100,100"}
+MEI: ¡Yo quiero ver uno! ¡Satsuki, salgamos al jardín!
+
+[[AVANZAR-12]]
+
+
+:: AVANZAR-12 [SATSUKI_5] {"position":"2625,375","size":"100,100"}
+SATSUKI: Lo siento, Mei, pero yo me tengo que ir al colegio. Te prometo que cuando vuelva, buscaremos a los Totoros.
+
+[[AVANZAR-13]]
+
+
+:: AVANZAR-13 [MEI_4] {"position":"2775,375","size":"100,100"}
+MEI: Vale… ¡Adiós, Satsuki!
+
+[[AVANZAR-14]]
+
+
+:: AVANZAR-14 [NANNY_5] {"position":"2925,375","size":"100,100"}
+NANNY: Hasta luego, Satsuki. Yo seguiré aquí cuando vuelvas.
+
+[[AVANZAR-15]]
+
+
+:: AVANZAR-15 {"position":"3075,375","size":"100,100"}
+SATSUKI: ¡Adiós!
+
+[[FIN CINEMATICA]]
+
+
+:: AVANZAR-2 [NANNY] {"position":"1275,375","size":"100,100"}
+NANNY: Claro niñas. Sentaos aquí a mi lado. (Mei y Satsuki se sientan a su izquierda). Según dicen las leyendas, en las casas abandonadas viven los conejos de polvo porque les gustan los sitios tristes. Sin embargo, ahora que os habéis mudado aquí, están saliendo porque sois unas niñas muy felices.
+
+[[AVANZAR-3]]
+
+
+:: AVANZAR-3 [MEI] {"position":"1450,375","size":"100,100"}
+MEI: ¡Hala! Pues yo no quería que se fueran. Ni siquiera he podido atrapar uno cuando los he tenido enfrente, se me ha escapado…
+
+[[AVANZAR-4]]
+
+
+:: AVANZAR-4 [SATSUKI] {"position":"1600,375","size":"100,100"}
+SATSUKI: ¿Hay algún otro bichito mágico que pueda vivir aquí?
+
+[[AVANZAR-5]]
+
+
+:: AVANZAR-5 [NANNY_2] {"position":"1750,375","size":"100,100"}
+NANNY: Existen unos seres llamados Totoros, a los que les gusta corretear por el campo y robar ''bellotas''. Se dice que viven en el interior de los bosques porque no les gusta ser vistos. Son muy precavidos y cuidadosos, hay pocas personas que los llegan a ver… Solo los podrás conocer si ellos consideran que eres una'' buena persona''.
+
+[[AVANZAR-6]]
+
+
+:: AVANZAR-6 [MEI_2] {"position":"1900,375","size":"100,100"}
+MEI: ¿Y cómo son? ¿Son igual que los bichitos de polvo?
+
+[[AVANZAR-7]]
+
+
+:: AVANZAR-7 [NANNY_3] {"position":"2025,375","size":"100,100"}
+NANNY: Hay totoros de todos los tamaños. Sin embargo, todos tienen un pelaje suave, unos ojos grandes y brillantes, y unas orejas largas.
+
+[[AVANZAR-8]]
+
+
+:: AVANZAR-8 [SATSUKI_3] {"position":"2175,375","size":"100,100"}
+SATSUKI: Y los totoros… ¿viven solos?
+
+[[AVANZAR-9]]
+
+
+:: AVANZAR-9 [NANNY_4] {"position":"2325,375","size":"100,100"}
+NANNY: No, les gusta vivir con otros como ellos, para poder protegerse y jugar entre ellos. Cuando los árboles susurran y los vientos cantan, los Totoros saltan y entre las hojas bailan.
+
+[[AVANZAR-10]]
+
+
+:: FIN CINEMATICA {"position":"3225,375","size":"100,100"}
+SATSUKI abandona la escena, unos segundos  después MI sale al jardin y se desvanece la imagen con un fundido a negro.
+
+
+:: Inicio(Cinematica) {"position":"900,375","size":"100,100"}
+Comienza con franjas negras
+[[AVANZAR]]
