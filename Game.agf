@@ -676,30 +676,7 @@
     <GUIs>
       <GUIFolder Name="Main">
         <SubFolders />
-        <GUIs>
-          <GUIMain>
-            <NormalGUI>
-              <BackgroundColor>8</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
-              <BorderColor>2</BorderColor>
-              <Clickable>True</Clickable>
-              <Height>400</Height>
-              <ID>0</ID>
-              <Left>0</Left>
-              <Name>gGui1</Name>
-              <OnClick />
-              <PopupStyle>Normal</PopupStyle>
-              <PopupYPos>0</PopupYPos>
-              <ScriptModule>GlobalScript.asc</ScriptModule>
-              <Top>0</Top>
-              <Transparency>0</Transparency>
-              <Visible>True</Visible>
-              <Width>640</Width>
-              <ZOrder>0</ZOrder>
-            </NormalGUI>
-            <Controls />
-          </GUIMain>
-        </GUIs>
+        <GUIs />
       </GUIFolder>
     </GUIs>
     <InventoryItems>
@@ -971,7 +948,7 @@
             <NormalView>1</NormalView>
             <Properties />
             <RealName>SATSUKI</RealName>
-            <ScriptName>cSatstuki</ScriptName>
+            <ScriptName>cSatsuki</ScriptName>
             <Solid>True</Solid>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
@@ -1891,6 +1868,22 @@ return]]></Script>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="24" Width="640" Height="75" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>recursosArte/UI/bordeNegro.jpg</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>75</ImportHeight>
+                  <ImportWidth>640</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
             </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="cursores">
@@ -2281,7 +2274,9 @@ return]]></Script>
   <Component Name="Rooms" />
   <Component Name="Translations" />
   <Component Name="MusicAndSpeech">
-    <SpeechVoxFiles />
+    <SpeechVoxFiles>
+      <Folder Name="speech" />
+    </SpeechVoxFiles>
     <PamFiles>
       <Folder Name="speech" />
     </PamFiles>
