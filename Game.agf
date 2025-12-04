@@ -3917,7 +3917,7 @@ return
                   <Frame>0</Frame>
                   <RemapToGamePalette>True</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportMethod>TopLeft</ImportMethod>
                   <TransparentColorIndex>0</TransparentColorIndex>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
@@ -3933,7 +3933,7 @@ return
                   <Frame>0</Frame>
                   <RemapToGamePalette>True</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportMethod>TopLeft</ImportMethod>
                   <TransparentColorIndex>0</TransparentColorIndex>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
@@ -3949,7 +3949,7 @@ return
                   <Frame>0</Frame>
                   <RemapToGamePalette>True</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportMethod>TopLeft</ImportMethod>
                   <TransparentColorIndex>0</TransparentColorIndex>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
@@ -3965,7 +3965,7 @@ return
                   <Frame>0</Frame>
                   <RemapToGamePalette>True</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <ImportMethod>TopLeft</ImportMethod>
                   <TransparentColorIndex>0</TransparentColorIndex>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
@@ -4128,28 +4128,28 @@ return
                     <Frames>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>0</ID>
                         <Image>59</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>1</ID>
                         <Image>60</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>2</ID>
                         <Image>61</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>3</ID>
                         <Image>62</Image>
                         <Sound>0</Sound>
@@ -4162,28 +4162,28 @@ return
                     <Frames>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>0</ID>
                         <Image>63</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>1</ID>
                         <Image>64</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>2</ID>
                         <Image>65</Image>
                         <Sound>0</Sound>
                       </ViewFrame>
                       <ViewFrame>
                         <Delay>0</Delay>
-                        <Flipped>False</Flipped>
+                        <Flipped>True</Flipped>
                         <ID>3</ID>
                         <Image>66</Image>
                         <Sound>0</Sound>
@@ -4979,6 +4979,37 @@ return
                     <Sound>0</Sound>
                   </ViewFrame>
                 </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <Delay>0</Delay>
+                    <Flipped>False</Flipped>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
               </Loop>
             </Loops>
           </View>
