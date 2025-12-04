@@ -1005,17 +1005,17 @@
                 <CharacterID>-1</CharacterID>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>133</Height>
+                <Height>134</Height>
                 <ID>9</ID>
                 <ItemHeight>20</ItemHeight>
                 <ItemWidth>30</ItemWidth>
                 <Left>221</Left>
                 <Locked>False</Locked>
-                <Name>Inventario</Name>
-                <Top>183</Top>
+                <Name>InventarioHueco1</Name>
+                <Top>184</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>148</Width>
+                <Width>151</Width>
                 <ZOrder>9</ZOrder>
               </GUIInventory>
             </Controls>
