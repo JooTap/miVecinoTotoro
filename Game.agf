@@ -737,7 +737,7 @@
               <Height>400</Height>
               <ID>1</ID>
               <Left>0</Left>
-              <Name>gInventario</Name>
+              <Name>gInv</Name>
               <OnClick />
               <PopupStyle>Normal</PopupStyle>
               <PopupYPos>0</PopupYPos>
@@ -1018,6 +1018,34 @@
                 <Width>151</Width>
                 <ZOrder>9</ZOrder>
               </GUIInventory>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>25</Height>
+                <ID>10</ID>
+                <Image>20</Image>
+                <Left>0</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>BotonMochilaCerrar</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>bMochila_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text />
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>1</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>25</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>10</ZOrder>
+              </GUIButton>
             </Controls>
           </GUIMain>
         </GUIs>
