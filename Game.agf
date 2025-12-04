@@ -1160,7 +1160,7 @@
         <Dialogs>
           <Dialog>
             <ID>0</ID>
-            <Name>dInicio</Name>
+            <Name>dCasaSalon</Name>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
@@ -1193,6 +1193,64 @@ cNanny: Hasta luego, Satsuki. Yo seguiré aquí cuando vuelvas.
 cSatsuki: ¡Adiós!
 
 return]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>1</ID>
+            <Name>dCasaSalon2</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cSatsuki:¡Ya llegué! Qué hambre tengo… 
+cSatsuki:¡Hola Mei!
+
+cMei:¡Satsuki no vas a creer lo que he visto! He salido al jardín a explorar mientras papá trabajaba. 
+cMei:He encontrado a unos Totoros pequeñitos, como los del cuento de la abuela.
+
+cSatsuki:¿Unos Totoros pequeños? ¿Cómo los has encontrado?
+
+cMei:He seguido un rastro de bellotas.
+
+cSatsuki: No puedo creer que me los haya perdido. Prométeme que la próxima vez que los encuentres me llevarás contigo.
+
+cMei: No estés triste Satsuki. Te prometo que la próxima vez los verás tú también.
+
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>2</ID>
+            <Name>dCaminoParada</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cSatsuki:Vamos Mei, tenemos que llevarle este paraguas a papá antes de que su bus llegue a la parada.
+
+cMei:¡Si, está lloviendo mucho! 
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>3</ID>
+            <Name>dParadaBus</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cMei:¡Oh, ya está aquí papá!
+
+cTatsuo:¿Qué hacéis aquí? Os estáis empapando.
+cSatsuki:Ya es tarde, nos habíamos preocupado y te hemos traído un paraguas.
+
+cMei: ¡Papá, hemos visto a Totoro!
+cMei:¡Se han montado en un autobús con forma de gato y se han ido volando!
+
+cSatsuki:¡Sí!
+
+cTatsuo:¡Muchas gracias! Venga vamos a casa, Nanny estará preocupada…
+return
+]]></Script>
             <DialogOptions />
           </Dialog>
         </Dialogs>
