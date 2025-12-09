@@ -28,7 +28,7 @@
       <DeveloperURL />
       <DialogOptionsBackwards>False</DialogOptionsBackwards>
       <DialogOptionsBullet>0</DialogOptionsBullet>
-      <DialogOptionsGUI>2</DialogOptionsGUI>
+      <DialogOptionsGUI>0</DialogOptionsGUI>
       <DialogOptionsGap>0</DialogOptionsGap>
       <DialogScriptNarrateFunction IsNull="True" />
       <DialogScriptSayFunction IsNull="True" />
@@ -71,7 +71,7 @@
       <ScriptCompatLevel>Highest</ScriptCompatLevel>
       <SkipSpeech>MouseOrKeyboardOrTimer</SkipSpeech>
       <SpeechPortraitSide>Left</SpeechPortraitSide>
-      <SpeechStyle>Lucasarts</SpeechStyle>
+      <SpeechStyle>SierraWithBackground</SpeechStyle>
       <SplitResources>0</SplitResources>
       <SpriteAlphaStyle>Improved</SpriteAlphaStyle>
       <TTFHeightDefinedBy>NominalHeight</TTFHeightDefinedBy>
@@ -1046,6 +1046,34 @@
                 <WrapText>False</WrapText>
                 <ZOrder>10</ZOrder>
               </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>16</Height>
+                <ID>11</ID>
+                <Image>0</Image>
+                <Left>419</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Exit</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>Exit_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>X</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>63488</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>132</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>16</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>11</ZOrder>
+              </GUIButton>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -1360,7 +1388,7 @@
               <ScriptModule>GlobalScript.asc</ScriptModule>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cSatsuki_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1391,9 +1419,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
-            <StartingRoom>-1</StartingRoom>
+            <StartX>521</StartX>
+            <StartY>322</StartY>
+            <StartingRoom>4</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <TurnWhenFacing>True</TurnWhenFacing>
@@ -1404,7 +1432,7 @@
               <ScriptModule>GlobalScript.asc</ScriptModule>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cNanny_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1586,7 +1614,8 @@ cNanny: Hasta luego, Satsuki. Yo seguiré aquí cuando vuelvas.
 
 cSatsuki: ¡Adiós!
 
-return]]></Script>
+return
+]]></Script>
             <DialogOptions />
           </Dialog>
           <Dialog>
@@ -1609,8 +1638,7 @@ cSatsuki: No puedo creer que me los haya perdido. Prométeme que la próxima vez
 
 cMei: No estés triste Satsuki. Te prometo que la próxima vez los verás tú también.
 
-return
-]]></Script>
+return]]></Script>
             <DialogOptions />
           </Dialog>
           <Dialog>
@@ -1622,8 +1650,7 @@ return
 cSatsuki:Vamos Mei, tenemos que llevarle este paraguas a papá antes de que su bus llegue a la parada.
 
 cMei:¡Si, está lloviendo mucho! 
-return
-]]></Script>
+return]]></Script>
             <DialogOptions />
           </Dialog>
           <Dialog>
