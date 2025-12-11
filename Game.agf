@@ -12,7 +12,7 @@
       <AntiAliasFonts>False</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>0</AudioIndexer>
+      <AudioIndexer>1</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets>Windows</BuildTargets>
@@ -28,7 +28,7 @@
       <DeveloperURL />
       <DialogOptionsBackwards>False</DialogOptionsBackwards>
       <DialogOptionsBullet>0</DialogOptionsBullet>
-      <DialogOptionsGUI>0</DialogOptionsGUI>
+      <DialogOptionsGUI>2</DialogOptionsGUI>
       <DialogOptionsGap>0</DialogOptionsGap>
       <DialogScriptNarrateFunction IsNull="True" />
       <DialogScriptSayFunction IsNull="True" />
@@ -71,7 +71,7 @@
       <ScriptCompatLevel>Highest</ScriptCompatLevel>
       <SkipSpeech>MouseOrKeyboardOrTimer</SkipSpeech>
       <SpeechPortraitSide>Left</SpeechPortraitSide>
-      <SpeechStyle>SierraWithBackground</SpeechStyle>
+      <SpeechStyle>SierraTransparent</SpeechStyle>
       <SplitResources>0</SplitResources>
       <SpriteAlphaStyle>Improved</SpriteAlphaStyle>
       <TTFHeightDefinedBy>NominalHeight</TTFHeightDefinedBy>
@@ -105,7 +105,7 @@
       <MouseSpeed>1</MouseSpeed>
       <RenderAtScreenResolution>False</RenderAtScreenResolution>
       <Rotation>Unlocked</Rotation>
-      <ShowFPS>False</ShowFPS>
+      <ShowFPS>True</ShowFPS>
       <SoundCacheSize>32</SoundCacheSize>
       <SpriteCacheSize>128</SpriteCacheSize>
       <TextureCacheSize>128</TextureCacheSize>
@@ -1096,7 +1096,26 @@
               <Width>640</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
-            <Controls />
+            <Controls>
+              <GUILabel>
+                <Clickable>True</Clickable>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>83</Height>
+                <ID>0</ID>
+                <Left>168</Left>
+                <Locked>True</Locked>
+                <Name>lblTexto</Name>
+                <Text />
+                <TextAlignment>TopLeft</TextAlignment>
+                <TextColor>0</TextColor>
+                <Top>286</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>446</Width>
+                <ZOrder>0</ZOrder>
+              </GUILabel>
+            </Controls>
           </GUIMain>
         </GUIs>
       </GUIFolder>
@@ -1586,7 +1605,7 @@
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-cSatsuki: ¡Nanny! ¡Nos hemos encontrado con unos bichitos negros en el desvan! ¿Nos cuentas algo sobre los animalitos magicos que viven en esta casa?
+cSatsuki:¡Nanny! ¡Nos hemos encontrado con unos bichitos negros en el desvan! ¿Nos cuentas algo sobre los animalitos magicos que viven en esta casa?
 
 cNanny: Claro niñas. Sentaos aquí a mi lado. Según dicen las leyendas, en las casas abandonadas viven los conejos de polvo porque les gustan los sitios tristes. Sin embargo, ahora que os habéis mudado aquí, están saliendo porque sois unas niñas muy felices.
 
@@ -1614,8 +1633,7 @@ cNanny: Hasta luego, Satsuki. Yo seguiré aquí cuando vuelvas.
 
 cSatsuki: ¡Adiós!
 
-return
-]]></Script>
+return]]></Script>
             <DialogOptions />
           </Dialog>
           <Dialog>
@@ -1624,6 +1642,7 @@ return
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
+
 cSatsuki:¡Ya llegué! Qué hambre tengo… 
 cSatsuki:¡Hola Mei!
 
@@ -1649,7 +1668,8 @@ return]]></Script>
 @S  // Dialog startup entry point
 cSatsuki:Vamos Mei, tenemos que llevarle este paraguas a papá antes de que su bus llegue a la parada.
 
-cMei:¡Si, está lloviendo mucho! 
+cMei:¡Si, está lloviendo mucho!
+
 return]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1829,7 +1849,7 @@ return
         <AutoOutlineThickness>1</AutoOutlineThickness>
         <ID>1</ID>
         <LineSpacing>0</LineSpacing>
-        <Name xml:space="preserve">Font 1</Name>
+        <Name xml:space="preserve">font 2</Name>
         <OutlineFont>2</OutlineFont>
         <OutlineStyle>UseOutlineFont</OutlineStyle>
         <PointSize>0</PointSize>
