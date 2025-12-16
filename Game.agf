@@ -683,7 +683,7 @@
               <BackgroundImage>0</BackgroundImage>
               <BorderColor>0</BorderColor>
               <Clickable>True</Clickable>
-              <Height>25</Height>
+              <Height>22</Height>
               <ID>0</ID>
               <Left>0</Left>
               <Name>gMochila</Name>
@@ -694,7 +694,7 @@
               <Top>0</Top>
               <Transparency>0</Transparency>
               <Visible>True</Visible>
-              <Width>25</Width>
+              <Width>22</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
             <Controls>
@@ -734,7 +734,7 @@
               <BackgroundImage>23</BackgroundImage>
               <BorderColor>0</BorderColor>
               <Clickable>True</Clickable>
-              <Height>400</Height>
+              <Height>363</Height>
               <ID>1</ID>
               <Left>0</Left>
               <Name>gInv</Name>
@@ -745,7 +745,7 @@
               <Top>0</Top>
               <Transparency>0</Transparency>
               <Visible>False</Visible>
-              <Width>640</Width>
+              <Width>585</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
             <Controls>
@@ -755,10 +755,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>47</Height>
+                <Height>42</Height>
                 <ID>0</ID>
                 <Image>22</Image>
-                <Left>216</Left>
+                <Left>197</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem1</Name>
@@ -770,10 +770,10 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>179</Top>
+                <Top>162</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>44</Width>
+                <Width>40</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>0</ZOrder>
               </GUIButton>
@@ -783,10 +783,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>47</Height>
+                <Height>42</Height>
                 <ID>1</ID>
                 <Image>22</Image>
-                <Left>275</Left>
+                <Left>251</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem2</Name>
@@ -798,10 +798,10 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>179</Top>
+                <Top>162</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>44</Width>
+                <Width>40</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>1</ZOrder>
               </GUIButton>
@@ -811,10 +811,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>47</Height>
+                <Height>42</Height>
                 <ID>2</ID>
                 <Image>22</Image>
-                <Left>332</Left>
+                <Left>303</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem3</Name>
@@ -826,10 +826,10 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>179</Top>
+                <Top>162</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>44</Width>
+                <Width>40</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>2</ZOrder>
               </GUIButton>
@@ -839,10 +839,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>47</Height>
+                <Height>42</Height>
                 <ID>3</ID>
                 <Image>22</Image>
-                <Left>216</Left>
+                <Left>197</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem4</Name>
@@ -854,10 +854,10 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>229</Top>
+                <Top>208</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>44</Width>
+                <Width>40</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>3</ZOrder>
               </GUIButton>
@@ -867,10 +867,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>47</Height>
+                <Height>42</Height>
                 <ID>4</ID>
                 <Image>22</Image>
-                <Left>216</Left>
+                <Left>197</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem5</Name>
@@ -882,10 +882,10 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>279</Top>
+                <Top>253</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>44</Width>
+                <Width>40</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>4</ZOrder>
               </GUIButton>
@@ -895,10 +895,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>47</Height>
+                <Height>42</Height>
                 <ID>5</ID>
                 <Image>22</Image>
-                <Left>275</Left>
+                <Left>251</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem6</Name>
@@ -910,10 +910,10 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>279</Top>
+                <Top>253</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>44</Width>
+                <Width>40</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>5</ZOrder>
               </GUIButton>
@@ -923,10 +923,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>47</Height>
+                <Height>42</Height>
                 <ID>6</ID>
                 <Image>22</Image>
-                <Left>275</Left>
+                <Left>251</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem7</Name>
@@ -938,10 +938,10 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>229</Top>
+                <Top>208</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>44</Width>
+                <Width>40</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>6</ZOrder>
               </GUIButton>
@@ -951,10 +951,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>47</Height>
+                <Height>42</Height>
                 <ID>7</ID>
                 <Image>22</Image>
-                <Left>332</Left>
+                <Left>303</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem8</Name>
@@ -966,10 +966,10 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>229</Top>
+                <Top>208</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>44</Width>
+                <Width>40</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>7</ZOrder>
               </GUIButton>
@@ -979,10 +979,10 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>47</Height>
+                <Height>42</Height>
                 <ID>8</ID>
                 <Image>22</Image>
-                <Left>332</Left>
+                <Left>303</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem9</Name>
@@ -994,10 +994,10 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>279</Top>
+                <Top>253</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>44</Width>
+                <Width>40</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>8</ZOrder>
               </GUIButton>
@@ -1005,17 +1005,17 @@
                 <CharacterID>-1</CharacterID>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>134</Height>
+                <Height>121</Height>
                 <ID>9</ID>
                 <ItemHeight>20</ItemHeight>
                 <ItemWidth>30</ItemWidth>
-                <Left>221</Left>
+                <Left>202</Left>
                 <Locked>False</Locked>
                 <Name>InventarioHueco1</Name>
-                <Top>184</Top>
+                <Top>167</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>151</Width>
+                <Width>138</Width>
                 <ZOrder>9</ZOrder>
               </GUIInventory>
               <GUIButton>
@@ -1024,7 +1024,7 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>25</Height>
+                <Height>26</Height>
                 <ID>10</ID>
                 <Image>20</Image>
                 <Left>0</Left>
@@ -1039,10 +1039,10 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>1</Top>
+                <Top>0</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>25</Width>
+                <Width>27</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>10</ZOrder>
               </GUIButton>
@@ -1052,25 +1052,25 @@
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>16</Height>
+                <Height>33</Height>
                 <ID>11</ID>
-                <Image>0</Image>
-                <Left>419</Left>
+                <Image>145</Image>
+                <Left>415</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
-                <Name>Exit</Name>
+                <Name>bExit</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>Exit_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
-                <Text>X</Text>
+                <Text />
                 <TextAlignment>MiddleCenter</TextAlignment>
                 <TextColor>63488</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>132</Top>
+                <Top>117</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>16</Width>
+                <Width>33</Width>
                 <WrapText>False</WrapText>
                 <ZOrder>11</ZOrder>
               </GUIButton>
@@ -1101,33 +1101,33 @@
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>83</Height>
+                <Height>80</Height>
                 <ID>0</ID>
-                <Left>168</Left>
-                <Locked>True</Locked>
+                <Left>167</Left>
+                <Locked>False</Locked>
                 <Name>lblTexto</Name>
                 <Text />
                 <TextAlignment>TopLeft</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>286</Top>
+                <Top>288</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>446</Width>
+                <Width>418</Width>
                 <ZOrder>0</ZOrder>
               </GUILabel>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
                 <Clickable>True</Clickable>
-                <ClipImage>True</ClipImage>
+                <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
-                <Height>30</Height>
+                <Height>33</Height>
                 <ID>1</ID>
                 <Image>143</Image>
-                <Left>588</Left>
+                <Left>590</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
-                <Name>Button1</Name>
+                <Name>bSiguiete</Name>
                 <NewModeNumber>0</NewModeNumber>
                 <OnClick>Button1_OnClick</OnClick>
                 <PushedImage>0</PushedImage>
@@ -1136,14 +1136,36 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>338</Top>
+                <Top>339</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>30</Width>
-                <WrapText>True</WrapText>
+                <Width>33</Width>
+                <WrapText>False</WrapText>
                 <ZOrder>1</ZOrder>
               </GUIButton>
             </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>51</BackgroundImage>
+              <BorderColor>0</BorderColor>
+              <Clickable>False</Clickable>
+              <Height>90</Height>
+              <ID>3</ID>
+              <Left>50</Left>
+              <Name>imgDialogo</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ScriptModule>GlobalScript.asc</ScriptModule>
+              <Top>300</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>50</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls />
           </GUIMain>
         </GUIs>
       </GUIFolder>
@@ -1422,9 +1444,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>342</StartX>
-            <StartY>315</StartY>
-            <StartingRoom>4</StartingRoom>
+            <StartX>405</StartX>
+            <StartY>314</StartY>
+            <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <TurnWhenFacing>True</TurnWhenFacing>
@@ -1466,9 +1488,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>521</StartX>
-            <StartY>322</StartY>
-            <StartingRoom>4</StartingRoom>
+            <StartX>19</StartX>
+            <StartY>311</StartY>
+            <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <TurnWhenFacing>True</TurnWhenFacing>
@@ -1812,7 +1834,7 @@ return
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <ID>6</ID>
-        <Image>0</Image>
+        <Image>141</Image>
         <Name>Pointer</Name>
         <StandardMode>False</StandardMode>
         <View>0</View>
@@ -4382,6 +4404,38 @@ return
                   <RemapToGamePalette>True</RemapToGamePalette>
                   <RemapToRoomPalette>False</RemapToRoomPalette>
                   <ImportMethod>TopRight</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="144" Width="640" Height="400" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>recursosArte/UI/UI_DialogoNoRetrato.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>400</ImportHeight>
+                  <ImportWidth>640</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="145" Width="32" Height="32" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>recursosArte/UI/UI_ExitButton.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>32</ImportHeight>
+                  <ImportWidth>32</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
                   <TransparentColorIndex>0</TransparentColorIndex>
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
