@@ -69,7 +69,7 @@
       <ScaleMovementSpeedWithMaskResolution>False</ScaleMovementSpeedWithMaskResolution>
       <ScriptAPIVersion>Highest</ScriptAPIVersion>
       <ScriptCompatLevel>Highest</ScriptCompatLevel>
-      <SkipSpeech>MouseOrKeyboardOrTimer</SkipSpeech>
+      <SkipSpeech>MouseOnlyStrict</SkipSpeech>
       <SpeechPortraitSide>Left</SpeechPortraitSide>
       <SpeechStyle>SierraTransparent</SpeechStyle>
       <SplitResources>0</SplitResources>
@@ -683,7 +683,7 @@
               <BackgroundImage>0</BackgroundImage>
               <BorderColor>0</BorderColor>
               <Clickable>True</Clickable>
-              <Height>22</Height>
+              <Height>26</Height>
               <ID>0</ID>
               <Left>0</Left>
               <Name>gMochila</Name>
@@ -694,7 +694,7 @@
               <Top>0</Top>
               <Transparency>0</Transparency>
               <Visible>True</Visible>
-              <Width>22</Width>
+              <Width>26</Width>
               <ZOrder>0</ZOrder>
             </NormalGUI>
             <Controls>
@@ -1124,7 +1124,7 @@
                 <Height>33</Height>
                 <ID>1</ID>
                 <Image>143</Image>
-                <Left>590</Left>
+                <Left>585</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bSiguiete</Name>
@@ -1136,7 +1136,7 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>339</Top>
+                <Top>337</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>33</Width>
@@ -1831,8 +1831,8 @@ return
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <AnimationDelay>5</AnimationDelay>
-        <HotspotX>0</HotspotX>
-        <HotspotY>0</HotspotY>
+        <HotspotX>4</HotspotX>
+        <HotspotY>3</HotspotY>
         <ID>6</ID>
         <Image>141</Image>
         <Name>Pointer</Name>
@@ -2182,7 +2182,22 @@ return
       <PaletteEntry Index="255" Type="Background" Red="120" Green="120" Blue="120" />
     </Palette>
     <GlobalVariables>
-      <Variables />
+      <Variables>
+        <GlobalVariable>
+          <ArraySize>0</ArraySize>
+          <ArrayType>None</ArrayType>
+          <DefaultValue />
+          <Name>oFranjaSuperior</Name>
+          <Type>Object*</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <ArraySize>0</ArraySize>
+          <ArrayType>None</ArrayType>
+          <DefaultValue />
+          <Name>oFranjaInferior</Name>
+          <Type>Object*</Type>
+        </GlobalVariable>
+      </Variables>
     </GlobalVariables>
     <Sprites>
       <SpriteFolder Name="Main">
@@ -4581,6 +4596,22 @@ return
               <Sprite Slot="20" Width="25" Height="25" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                 <Source>
                   <FileName>D:\DESCARGAS\s-Mochila.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>25</ImportHeight>
+                  <ImportWidth>25</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="146" Width="25" Height="25" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>recursosArte/Props/S_Hoja_Arbol.PNG</FileName>
                   <OffsetX>0</OffsetX>
                   <OffsetY>0</OffsetY>
                   <ImportHeight>25</ImportHeight>
