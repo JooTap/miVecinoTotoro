@@ -1100,16 +1100,16 @@
               <GUILabel>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>80</Height>
+                <Font>1</Font>
+                <Height>85</Height>
                 <ID>0</ID>
-                <Left>167</Left>
+                <Left>168</Left>
                 <Locked>False</Locked>
                 <Name>lblTexto</Name>
                 <Text />
                 <TextAlignment>TopLeft</TextAlignment>
                 <TextColor>0</TextColor>
-                <Top>288</Top>
+                <Top>285</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>418</Width>
@@ -1129,7 +1129,7 @@
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bSiguiete</Name>
                 <NewModeNumber>0</NewModeNumber>
-                <OnClick>Button1_OnClick</OnClick>
+                <OnClick />
                 <PushedImage>0</PushedImage>
                 <Text />
                 <TextAlignment>MiddleCenter</TextAlignment>
@@ -1444,8 +1444,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>405</StartX>
-            <StartY>314</StartY>
+            <StartX>347</StartX>
+            <StartY>311</StartY>
             <StartingRoom>1</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -1887,7 +1887,7 @@ return
         <LineSpacing>0</LineSpacing>
         <Name>fNormal</Name>
         <OutlineFont>0</OutlineFont>
-        <OutlineStyle>None</OutlineStyle>
+        <OutlineStyle>Automatic</OutlineStyle>
         <PointSize>0</PointSize>
         <SizeMultiplier>1</SizeMultiplier>
         <SourceFilename />
@@ -1899,12 +1899,12 @@ return
         <AutoOutlineThickness>1</AutoOutlineThickness>
         <ID>1</ID>
         <LineSpacing>0</LineSpacing>
-        <Name xml:space="preserve">font 2</Name>
-        <OutlineFont>2</OutlineFont>
-        <OutlineStyle>UseOutlineFont</OutlineStyle>
-        <PointSize>0</PointSize>
+        <Name>fTextos</Name>
+        <OutlineFont>1</OutlineFont>
+        <OutlineStyle>None</OutlineStyle>
+        <PointSize>10</PointSize>
         <SizeMultiplier>1</SizeMultiplier>
-        <SourceFilename />
+        <SourceFilename>recursosArte/Fuentes/panaschill/PanasChill.ttf</SourceFilename>
         <TTFMetricsFixup>None</TTFMetricsFixup>
         <VerticalOffset>0</VerticalOffset>
       </Font>
@@ -1913,12 +1913,26 @@ return
         <AutoOutlineThickness>1</AutoOutlineThickness>
         <ID>2</ID>
         <LineSpacing>0</LineSpacing>
-        <Name>fNegrita</Name>
+        <Name>fTextosNegrita</Name>
+        <OutlineFont>0</OutlineFont>
+        <OutlineStyle>Automatic</OutlineStyle>
+        <PointSize>10</PointSize>
+        <SizeMultiplier>1</SizeMultiplier>
+        <SourceFilename>recursosArte/Fuentes/dogica/dogicabold.ttf</SourceFilename>
+        <TTFMetricsFixup>None</TTFMetricsFixup>
+        <VerticalOffset>0</VerticalOffset>
+      </Font>
+      <Font>
+        <AutoOutlineStyle>Squared</AutoOutlineStyle>
+        <AutoOutlineThickness>1</AutoOutlineThickness>
+        <ID>3</ID>
+        <LineSpacing>0</LineSpacing>
+        <Name>fNormalNegrita</Name>
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>None</OutlineStyle>
-        <PointSize>0</PointSize>
+        <PointSize>9</PointSize>
         <SizeMultiplier>1</SizeMultiplier>
-        <SourceFilename />
+        <SourceFilename>agsfnt1.ttf</SourceFilename>
         <TTFMetricsFixup>None</TTFMetricsFixup>
         <VerticalOffset>0</VerticalOffset>
       </Font>
@@ -2186,16 +2200,9 @@ return
         <GlobalVariable>
           <ArraySize>0</ArraySize>
           <ArrayType>None</ArrayType>
-          <DefaultValue />
-          <Name>oFranjaSuperior</Name>
-          <Type>Object*</Type>
-        </GlobalVariable>
-        <GlobalVariable>
-          <ArraySize>0</ArraySize>
-          <ArrayType>None</ArrayType>
-          <DefaultValue />
-          <Name>oFranjaInferior</Name>
-          <Type>Object*</Type>
+          <DefaultValue>false</DefaultValue>
+          <Name>activarFranjas</Name>
+          <Type>bool</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
