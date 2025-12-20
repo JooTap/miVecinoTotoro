@@ -17,11 +17,11 @@ function mostrarDialogo(String texto) {
   
   while (i < total) {
      
-    i++; // aumenta la longitud del texto a mostrar
+    i++; // Aumenta la longitud del texto a mostrar
     lblTexto.Text = texto.Substring(0, i);
-    Wait(1); // controla la velocidad del texto
+    Wait(1); // Controla la velocidad del texto
   }
   
   sHablando.Stop();
-  Wait(1); // Tiempo entre dialogo y dialogo
+  WaitKey(); // Pulsa cualquier tecla para pasar el dialogo
 }
