@@ -19,9 +19,67 @@ function mostrarDialogo(String texto) {
      
     i++; // Aumenta la longitud del texto a mostrar
     lblTexto.Text = texto.Substring(0, i);
-    Wait(1); // Controla la velocidad del texto
+    Wait(1); // Controla la velocidad del textos
   }
   
   sHablando.Stop();
   WaitKey(); // Pulsa cualquier tecla para pasar el dialogo
+}
+
+// Funcion del dialogo de la room 1
+function dialogoRoom1(){
+  
+  cSatsuki.ChangeView(7);
+  cMei.ChangeView(11);
+  
+  imgDialogo.Visible = true;
+  
+  imgDialogo.BackgroundGraphic = 148; // Satsuki
+  mostrarDialogo("¡Nanny! ¡Nos hemos encontrado con unos bichitos negros en el desvan! ¿Nos cuentas algo sobre los animalitos magicos que viven en esta casa?");
+  
+  imgDialogo.BackgroundGraphic = 149; // Nanny
+  mostrarDialogo("Claro niñas. Sentaos aquí a mi lado. Según dicen las leyendas, en las casas abandonadas viven los conejos de polvo porque les gustan los sitios tristes. Sin embargo, ahora que os habéis mudado aquí, están saliendo porque sois unas niñas muy felices.");
+  
+  imgDialogo.BackgroundGraphic = 150; //Mei
+  mostrarDialogo("¡Hala! Pues yo no quería que se fueran. Ni siquiera he podido atrapar uno cuando los he tenido enfrente, se me ha escapado…");
+  
+  imgDialogo.BackgroundGraphic = 148;
+  mostrarDialogo("¿Hay algún otro bichito mágico que pueda vivir aquí?");
+  
+  imgDialogo.BackgroundGraphic = 149;
+  mostrarDialogo("Existen unos seres llamados Totoros, a los que les gusta corretear por el campo y robar BELLOTAS. Se dice que viven en el interior de los bosques porque no les gusta ser vistos.");
+  mostrarDialogo("Son muy precavidos y cuidadosos. hay pocas personas que los llegan a ver… Solo los podrás conocer si ellos consideran que eres una BUENA PERSONA.");
+  
+  imgDialogo.BackgroundGraphic = 150;
+  mostrarDialogo("¿Y cómo son? ¿Son igual que los bichitos de polvo?");
+  
+  imgDialogo.BackgroundGraphic = 149;
+  mostrarDialogo("Hay totoros de todos los tamaños. Sin embargo, todos tienen un pelaje suave, unos ojos grandes y brillantes, y unas orejas largas.");
+  
+  imgDialogo.BackgroundGraphic = 148;
+  mostrarDialogo("Y los totoros… ¿viven solos?");
+  
+  imgDialogo.BackgroundGraphic = 149;
+  mostrarDialogo("No, les gusta vivir con otros como ellos, para poder protegerse y jugar entre ellos. Cuando los árboles susurran y los vientos cantan, los Totoros saltan y entre las hojas bailan.");
+  
+  imgDialogo.BackgroundGraphic = 150;
+  mostrarDialogo("¡Yo quiero ver uno! ¡Satsuki, salgamos al jardín!");
+  
+  imgDialogo.BackgroundGraphic = 148;
+  mostrarDialogo("Lo siento, Mei, pero yo me tengo que ir al colegio. Te prometo que cuando vuelva, buscaremos a los Totoros.");
+  
+  imgDialogo.BackgroundGraphic = 150;
+  mostrarDialogo("Vale… ¡Adiós, Satsuki!");
+  
+  imgDialogo.BackgroundGraphic = 149;
+  mostrarDialogo("Hasta luego, Satsuki. Yo seguiré aquí cuando vuelvas.");
+  
+  imgDialogo.BackgroundGraphic = 148;
+  mostrarDialogo("¡Adiós!");
+  
+  cSatsuki.ChangeView(1);
+  
+  imgDialogo.Visible = false;
+  gDialogos.Visible = false;
+  
 }

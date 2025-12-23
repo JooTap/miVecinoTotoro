@@ -1566,7 +1566,7 @@
             <IdleDelay>20</IdleDelay>
             <IdleView>0</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeed>4</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>1</NormalView>
@@ -1634,7 +1634,7 @@
               <ScriptModule>GlobalScript.asc</ScriptModule>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2">cNanny_Talk</Event>
+              <Event Index="2" />
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1654,7 +1654,7 @@
             <IdleDelay>20</IdleDelay>
             <IdleView>0</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeed>4</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>3</NormalView>
@@ -1678,7 +1678,7 @@
               <ScriptModule>GlobalScript.asc</ScriptModule>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2">cMei_Talk</Event>
+              <Event Index="2" />
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1984,10 +1984,10 @@ return
         <Name>fDefault</Name>
         <OutlineFont>0</OutlineFont>
         <OutlineStyle>UseOutlineFont</OutlineStyle>
-        <PointSize>8</PointSize>
+        <PointSize>12</PointSize>
         <SizeMultiplier>1</SizeMultiplier>
-        <SourceFilename>recursosArte/Fuentes/pixelmix/pixelmix.ttf</SourceFilename>
-        <TTFMetricsFixup>None</TTFMetricsFixup>
+        <SourceFilename>recursosArte/Fuentes/Jersey10-Regular.ttf</SourceFilename>
+        <TTFMetricsFixup>SetAscenderToHeight</TTFMetricsFixup>
         <VerticalOffset>0</VerticalOffset>
       </Font>
       <Font>
@@ -1998,9 +1998,9 @@ return
         <Name>fNegrita</Name>
         <OutlineFont>1</OutlineFont>
         <OutlineStyle>UseOutlineFont</OutlineStyle>
-        <PointSize>6</PointSize>
+        <PointSize>12</PointSize>
         <SizeMultiplier>1</SizeMultiplier>
-        <SourceFilename>recursosArte/Fuentes/dogica/dogicabold.ttf</SourceFilename>
+        <SourceFilename>agsfnt2.ttf</SourceFilename>
         <TTFMetricsFixup>None</TTFMetricsFixup>
         <VerticalOffset>0</VerticalOffset>
       </Font>
