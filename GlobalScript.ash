@@ -3,6 +3,8 @@
 // place import definitions and #define names here to be used by all
 // scripts.
 
+// He visto que aqui se ponen los metodos propios que si que pueden ser invocados desde los scripts de las rooms
+
 // Metodo para imprimir el dialogo
 function mostrarDialogo(String texto) {
   
@@ -78,6 +80,21 @@ function dialogoRoom1(){
   mostrarDialogo("¡Adiós!");
   
   cSatsuki.ChangeView(1);
+  
+  imgDialogo.Visible = false;
+  gDialogos.Visible = false;
+  
+}
+
+function dialogoRoom3(){
+  
+  imgDialogo.Visible = true;
+  
+  imgDialogo.BackgroundGraphic = 148; // Satsuki
+  mostrarDialogo("Vamos Mei, tenemos que llevarle este paraguas a papá antes de que su bus llegue a la parada.");
+  
+  imgDialogo.BackgroundGraphic = 150; //Mei
+  mostrarDialogo("¡Si, está lloviendo mucho! ");
   
   imgDialogo.Visible = false;
   gDialogos.Visible = false;
