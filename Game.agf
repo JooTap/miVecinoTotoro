@@ -1577,9 +1577,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>524</StartX>
-            <StartY>379</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartX>-19</StartX>
+            <StartY>339</StartY>
+            <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <TurnWhenFacing>True</TurnWhenFacing>
@@ -1665,9 +1665,9 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>399</StartX>
-            <StartY>312</StartY>
-            <StartingRoom>1</StartingRoom>
+            <StartX>-19</StartX>
+            <StartY>335</StartY>
+            <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <TurnWhenFacing>True</TurnWhenFacing>
@@ -4809,6 +4809,54 @@ return
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
+              <Sprite Slot="153" Width="25" Height="25" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>recursosArte/Props/S_HojaPlanta.PNG</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>25</ImportHeight>
+                  <ImportWidth>25</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="154" Width="25" Height="25" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>recursosArte/Props/S_Planta.PNG</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>25</ImportHeight>
+                  <ImportWidth>25</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="155" Width="20" Height="20" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>recursosArte/Props/S-ParaguasTatsuo.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>20</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
               <Sprite Slot="146" Width="25" Height="25" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                 <Source>
                   <FileName>recursosArte/Props/S_Hoja_Arbol.PNG</FileName>
@@ -4816,6 +4864,22 @@ return
                   <OffsetY>0</OffsetY>
                   <ImportHeight>25</ImportHeight>
                   <ImportWidth>25</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="156" Width="20" Height="20" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>recursosArte/Props/S-piedra1.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>20</ImportHeight>
+                  <ImportWidth>20</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>True</RemapToGamePalette>
