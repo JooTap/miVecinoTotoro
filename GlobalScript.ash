@@ -100,3 +100,36 @@ function dialogoRoom3(){
   gDialogos.Visible = false;
   
 }
+
+function dialogo2Room3(){
+  
+  imgDialogo.Visible = true;
+  imgDialogo.BackgroundGraphic = 148; // Satsuki
+  
+  mostrarDialogo("Mei, ¿Tienes sueño?");
+  
+  imgDialogo.BackgroundGraphic = 150; // Mei
+  mostrarDialogo("No, no mucho");
+  
+  imgDialogo.BackgroundGraphic = 148; // Satsuki
+  mostrarDialogo("Papá tiene que estar ya a punto de llegar, aguanta un poco.");
+  mostrarDialogo("¿Por qué estará tardando tanto? ¿Habrá pasado algo?");
+  
+  
+  imgDialogo.Visible = false;
+  gDialogos.Visible = false;
+}
+
+function dialogo3Room3(){
+  
+  imgDialogo.Visible = true;
+  imgDialogo.BackgroundGraphic = 150; // Mei
+  mostrarDialogo("Papá no estaba ahí.");
+  
+  imgDialogo.BackgroundGraphic = 148; // Satsuki
+  mostrarDialogo("No te preocupes, llegará pronto.");
+  
+  imgDialogo.Visible = false;
+  gDialogos.Visible = false;
+  
+}

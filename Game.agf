@@ -1678,7 +1678,7 @@
               <ScriptModule>GlobalScript.asc</ScriptModule>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cMei_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1774,6 +1774,50 @@
               <Event Index="7" />
             </Interactions>
           </Character>
+          <Character>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <AnimationDelay>4</AnimationDelay>
+            <BlinkingView>0</BlinkingView>
+            <Clickable>True</Clickable>
+            <DiagonalLoops>True</DiagonalLoops>
+            <ID>5</ID>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>0</IdleView>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <NormalView>13</NormalView>
+            <Properties />
+            <RealName>Totoro</RealName>
+            <ScriptName>cTotoro</ScriptName>
+            <Solid>True</Solid>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <SpeechView>0</SpeechView>
+            <StartX>609</StartX>
+            <StartY>327</StartY>
+            <StartingRoom>3</StartingRoom>
+            <ThinkingView>0</ThinkingView>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <TurnWhenFacing>True</TurnWhenFacing>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <Interactions>
+              <ScriptModule>GlobalScript.asc</ScriptModule>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
         </Characters>
       </CharacterFolder>
     </Characters>
@@ -1781,66 +1825,7 @@
     <Dialogs>
       <DialogFolder Name="Main">
         <SubFolders />
-        <Dialogs>
-          <Dialog>
-            <ID>0</ID>
-            <Name>dCasaSalon2</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-
-cSatsuki:¡Ya llegué! Qué hambre tengo… 
-cSatsuki:¡Hola Mei!
-
-cMei:¡Satsuki no vas a creer lo que he visto! He salido al jardín a explorar mientras papá trabajaba. 
-cMei:He encontrado a unos Totoros pequeñitos, como los del cuento de la abuela.
-
-cSatsuki:¿Unos Totoros pequeños? ¿Cómo los has encontrado?
-
-cMei:He seguido un rastro de bellotas.
-
-cSatsuki: No puedo creer que me los haya perdido. Prométeme que la próxima vez que los encuentres me llevarás contigo.
-
-cMei: No estés triste Satsuki. Te prometo que la próxima vez los verás tú también.
-
-return]]></Script>
-            <DialogOptions />
-          </Dialog>
-          <Dialog>
-            <ID>1</ID>
-            <Name>dCaminoParada</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-cSatsuki:Vamos Mei, tenemos que llevarle este paraguas a papá antes de que su bus llegue a la parada.
-
-cMei:¡Si, está lloviendo mucho!
-
-return]]></Script>
-            <DialogOptions />
-          </Dialog>
-          <Dialog>
-            <ID>2</ID>
-            <Name>dParadaBus</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-cMei:¡Oh, ya está aquí papá!
-
-cTatsuo:¿Qué hacéis aquí? Os estáis empapando.
-cSatsuki:Ya es tarde, nos habíamos preocupado y te hemos traído un paraguas.
-
-cMei: ¡Papá, hemos visto a Totoro!
-cMei:¡Se han montado en un autobús con forma de gato y se han ido volando!
-
-cSatsuki:¡Sí!
-
-cTatsuo:¡Muchas gracias! Venga vamos a casa, Nanny estará preocupada…
-return
-]]></Script>
-            <DialogOptions />
-          </Dialog>
-        </Dialogs>
+        <Dialogs />
       </DialogFolder>
     </Dialogs>
     <Cursors>
@@ -4485,6 +4470,23 @@ return
                   </Sprite>
                 </Sprites>
               </SpriteFolder>
+              <SpriteFolder Name="Totoro">
+                <SubFolders>
+                  <SpriteFolder Name="TotoroNormal">
+                    <SubFolders />
+                    <Sprites />
+                  </SpriteFolder>
+                  <SpriteFolder Name="TotoroConHoja">
+                    <SubFolders />
+                    <Sprites />
+                  </SpriteFolder>
+                  <SpriteFolder Name="TotoroConHojaYParaguas">
+                    <SubFolders />
+                    <Sprites />
+                  </SpriteFolder>
+                </SubFolders>
+                <Sprites />
+              </SpriteFolder>
             </SubFolders>
             <Sprites />
           </SpriteFolder>
@@ -5790,6 +5792,32 @@ return
                         <Sound>0</Sound>
                       </ViewFrame>
                     </Frames>
+                  </Loop>
+                </Loops>
+              </View>
+            </Views>
+          </ViewFolder>
+          <ViewFolder Name="Totoro">
+            <SubFolders />
+            <Views>
+              <View>
+                <ID>13</ID>
+                <Name>TotoroNormal</Name>
+                <Loops />
+              </View>
+              <View>
+                <ID>14</ID>
+                <Name>TotoroConHoja</Name>
+                <Loops />
+              </View>
+              <View>
+                <ID>15</ID>
+                <Name>TotoroConHojaYParaguas</Name>
+                <Loops>
+                  <Loop>
+                    <ID>0</ID>
+                    <RunNextLoop>False</RunNextLoop>
+                    <Frames />
                   </Loop>
                 </Loops>
               </View>
