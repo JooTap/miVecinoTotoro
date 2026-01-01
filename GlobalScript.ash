@@ -133,10 +133,3 @@ function dialogo3Room3(){
   gDialogos.Visible = false;
   
 }
-
-function llegadaAutobus(){
-  //-185,  424
-  cbBus.Walk(274, 441, eBlock, eAnywhere);
-  cHombreRaro.Walk(211, 331, eBlock, eWalkableAreas);
-  cbBus.Walk(616, 333, eBlock, eAnywhere);
-}

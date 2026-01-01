@@ -1843,7 +1843,7 @@
             <IdleDelay>20</IdleDelay>
             <IdleView>0</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeed>2</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>13</NormalView>
@@ -1854,52 +1854,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>590</StartX>
-            <StartY>322</StartY>
-            <StartingRoom>3</StartingRoom>
-            <ThinkingView>0</ThinkingView>
-            <TurnBeforeWalking>True</TurnBeforeWalking>
-            <TurnWhenFacing>True</TurnWhenFacing>
-            <UniformMovementSpeed>True</UniformMovementSpeed>
-            <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
-            <Interactions>
-              <ScriptModule>GlobalScript.asc</ScriptModule>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-              <Event Index="5" />
-              <Event Index="6" />
-              <Event Index="7" />
-            </Interactions>
-          </Character>
-          <Character>
-            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
-            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <AnimationDelay>4</AnimationDelay>
-            <BlinkingView>0</BlinkingView>
-            <Clickable>False</Clickable>
-            <DiagonalLoops>True</DiagonalLoops>
-            <ID>6</ID>
-            <IdleAnimationDelay>4</IdleAnimationDelay>
-            <IdleDelay>20</IdleDelay>
-            <IdleView>0</IdleView>
-            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>2</MovementSpeed>
-            <MovementSpeedX>0</MovementSpeedX>
-            <MovementSpeedY>0</MovementSpeedY>
-            <NormalView>18</NormalView>
-            <Properties />
-            <RealName>Autobus</RealName>
-            <ScriptName>cbBus</ScriptName>
-            <Solid>True</Solid>
-            <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
-            <SpeechView>0</SpeechView>
-            <StartX>-208</StartX>
-            <StartY>398</StartY>
+            <StartX>670</StartX>
+            <StartY>324</StartY>
             <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -1926,12 +1882,12 @@
             <BlinkingView>0</BlinkingView>
             <Clickable>True</Clickable>
             <DiagonalLoops>True</DiagonalLoops>
-            <ID>7</ID>
+            <ID>6</ID>
             <IdleAnimationDelay>4</IdleAnimationDelay>
             <IdleDelay>20</IdleDelay>
             <IdleView>0</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeed>4</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>19</NormalView>
@@ -1942,8 +1898,52 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>211</StartX>
-            <StartY>517</StartY>
+            <StartX>-19</StartX>
+            <StartY>340</StartY>
+            <StartingRoom>3</StartingRoom>
+            <ThinkingView>0</ThinkingView>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <TurnWhenFacing>True</TurnWhenFacing>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <Interactions>
+              <ScriptModule>GlobalScript.asc</ScriptModule>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>True</AdjustVolumeWithScaling>
+            <AnimationDelay>4</AnimationDelay>
+            <BlinkingView>0</BlinkingView>
+            <Clickable>False</Clickable>
+            <DiagonalLoops>True</DiagonalLoops>
+            <ID>7</ID>
+            <IdleAnimationDelay>4</IdleAnimationDelay>
+            <IdleDelay>20</IdleDelay>
+            <IdleView>0</IdleView>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <MovementSpeed>1</MovementSpeed>
+            <MovementSpeedX>5</MovementSpeedX>
+            <MovementSpeedY>5</MovementSpeedY>
+            <NormalView>18</NormalView>
+            <Properties />
+            <RealName>Autobus</RealName>
+            <ScriptName>cBus</ScriptName>
+            <Solid>True</Solid>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <SpeechView>0</SpeechView>
+            <StartX>-200</StartX>
+            <StartY>360</StartY>
             <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2422,6 +2422,13 @@
           <DefaultValue>0</DefaultValue>
           <Name>gHojaDown</Name>
           <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <ArraySize>0</ArraySize>
+          <ArrayType>None</ArrayType>
+          <DefaultValue>false</DefaultValue>
+          <Name>totoroAndando</Name>
+          <Type>bool</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
@@ -5940,13 +5947,13 @@
               <SpriteFolder Name="Autobus">
                 <SubFolders />
                 <Sprites>
-                  <Sprite Slot="243" Width="420" Height="240" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                  <Sprite Slot="243" Width="376" Height="112" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                     <Source>
                       <FileName>recursosArte/personajes/autobus.png</FileName>
                       <OffsetX>0</OffsetX>
                       <OffsetY>0</OffsetY>
-                      <ImportHeight>240</ImportHeight>
-                      <ImportWidth>420</ImportWidth>
+                      <ImportHeight>112</ImportHeight>
+                      <ImportWidth>376</ImportWidth>
                       <ImportAsTile>False</ImportAsTile>
                       <Frame>0</Frame>
                       <RemapToGamePalette>True</RemapToGamePalette>
