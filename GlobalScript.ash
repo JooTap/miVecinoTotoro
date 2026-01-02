@@ -9,6 +9,7 @@
 function mostrarDialogo(String texto) {
   
   gDialogos.Visible = true;
+  imgDialogo.Visible = true;
     
   lblTexto.BringToFront();
     
@@ -30,17 +31,6 @@ function mostrarDialogo(String texto) {
 
 // Funcion del dialogo de la room 1
 function dialogoRoom1(){
-  
-  cSatsuki.ChangeView(7);
-  cMei.ChangeView(11);
-  
-  imgDialogo.Visible = true;
-  
-  imgDialogo.BackgroundGraphic = 148; // Satsuki
-  mostrarDialogo("¡Nanny! ¡Nos hemos encontrado con unos bichitos negros en el desvan! ¿Nos cuentas algo sobre los animalitos magicos que viven en esta casa?");
-  
-  imgDialogo.BackgroundGraphic = 149; // Nanny
-  mostrarDialogo("Claro niñas. Sentaos aquí a mi lado. Según dicen las leyendas, en las casas abandonadas viven los conejos de polvo porque les gustan los sitios tristes. Sin embargo, ahora que os habéis mudado aquí, están saliendo porque sois unas niñas muy felices.");
   
   imgDialogo.BackgroundGraphic = 150; //Mei
   mostrarDialogo("¡Hala! Pues yo no quería que se fueran. Ni siquiera he podido atrapar uno cuando los he tenido enfrente, se me ha escapado…");
