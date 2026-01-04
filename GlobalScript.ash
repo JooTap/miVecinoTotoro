@@ -27,6 +27,9 @@ function mostrarDialogo(String texto) {
   
   sHablando.Stop();
   WaitKey(); // Pulsa cualquier tecla para pasar el dialogo
+  
+  gDialogos.Visible = false;
+  imgDialogo.Visible = false;
 }
 
 // Funcion del dialogo de la room 1
