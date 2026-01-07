@@ -126,3 +126,27 @@ function dialogo3Room3(){
   gDialogos.Visible = false;
   
 }
+
+function dialogoMeiSinCuerda(){
+  
+  cSatsuki.Walk(cMei.x, cMei.y, eBlock, eWalkableAreas);
+  
+  imgDialogo.BackgroundGraphic = 148;
+  mostrarDialogo("¿Qué haces, Mei?");
+  
+  imgDialogo.BackgroundGraphic = 150;
+  mostrarDialogo("Estoy jugando al hilo con está cuerda que he encontrado.");
+  
+  imgDialogo.BackgroundGraphic = 148;
+  mostrarDialogo("¿Me la puedes dar? La necesito para una cosa.");
+  
+  imgDialogo.BackgroundGraphic = 150;
+  mostrarDialogo("¿¡Eeeeh!? Bueno vale, Satsuki…");
+  
+  //Le da la cuerda
+  
+  imgDialogo.BackgroundGraphic = 148;
+  mostrarDialogo("¡Bien! ¡Muchas gracias, Mei!");
+  
+}
+
