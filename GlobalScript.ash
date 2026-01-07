@@ -144,6 +144,7 @@ function dialogoMeiSinCuerda(){
   mostrarDialogo("¿¡Eeeeh!? Bueno vale, Satsuki…");
   
   //Le da la cuerda
+  cSatsuki.AddInventory(iCuerda);
   
   imgDialogo.BackgroundGraphic = 148;
   mostrarDialogo("¡Bien! ¡Muchas gracias, Mei!");
