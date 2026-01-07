@@ -1744,7 +1744,7 @@
               <ScriptModule>GlobalScript.asc</ScriptModule>
               <Event Index="0" />
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cNanny_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -2083,8 +2083,8 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>-115</StartX>
-            <StartY>370</StartY>
+            <StartX>-142</StartX>
+            <StartY>369</StartY>
             <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
             <TurnBeforeWalking>True</TurnBeforeWalking>
@@ -2554,7 +2554,7 @@
           <ArraySize>0</ArraySize>
           <ArrayType>None</ArrayType>
           <DefaultValue>false</DefaultValue>
-          <Name>activarFranjas</Name>
+          <Name>puzleRoom2Completado</Name>
           <Type>bool</Type>
         </GlobalVariable>
         <GlobalVariable>
@@ -2576,6 +2576,20 @@
           <ArrayType>None</ArrayType>
           <DefaultValue>false</DefaultValue>
           <Name>room2Completado</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <ArraySize>0</ArraySize>
+          <ArrayType>None</ArrayType>
+          <DefaultValue>-1</DefaultValue>
+          <Name>ultimaRoom</Name>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <ArraySize>0</ArraySize>
+          <ArrayType>None</ArrayType>
+          <DefaultValue>false</DefaultValue>
+          <Name>puzleRoom1Completado</Name>
           <Type>bool</Type>
         </GlobalVariable>
       </Variables>
