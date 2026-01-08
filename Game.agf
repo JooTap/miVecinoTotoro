@@ -12,7 +12,7 @@
       <AntiAliasFonts>True</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>2</AudioIndexer>
+      <AudioIndexer>4</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets>Windows</BuildTargets>
@@ -76,8 +76,8 @@
       <SpriteAlphaStyle>Improved</SpriteAlphaStyle>
       <TTFHeightDefinedBy>NominalHeight</TTFHeightDefinedBy>
       <TTFMetricsFixup>None</TTFMetricsFixup>
-      <TextWindowGUI>4</TextWindowGUI>
-      <ThoughtGUI>4</ThoughtGUI>
+      <TextWindowGUI>0</TextWindowGUI>
+      <ThoughtGUI>0</ThoughtGUI>
       <TurnBeforeFacing>False</TurnBeforeFacing>
       <TurnBeforeWalking>False</TurnBeforeWalking>
       <UniqueID>12087187</UniqueID>
@@ -1164,137 +1164,26 @@
             <Controls />
           </GUIMain>
           <GUIMain>
-            <TextWindowGUI>
+            <NormalGUI>
               <BackgroundColor>0</BackgroundColor>
-              <BackgroundImage>0</BackgroundImage>
+              <BackgroundImage>266</BackgroundImage>
+              <BorderColor>0</BorderColor>
+              <Clickable>False</Clickable>
+              <Height>400</Height>
               <ID>4</ID>
-              <Name>gDisplay</Name>
-              <Padding>3</Padding>
+              <Left>0</Left>
+              <Name>gRain</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
               <ScriptModule>GlobalScript.asc</ScriptModule>
-              <TextColor>0</TextColor>
-            </TextWindowGUI>
-            <Controls>
-              <GUITextWindowEdge>
-                <Clickable>False</Clickable>
-                <Enabled>True</Enabled>
-                <Height>10</Height>
-                <ID>0</ID>
-                <Image>0</Image>
-                <Left>0</Left>
-                <Locked>False</Locked>
-                <Name />
-                <Top>0</Top>
-                <Translated>True</Translated>
-                <Visible>False</Visible>
-                <Width>10</Width>
-                <ZOrder>0</ZOrder>
-              </GUITextWindowEdge>
-              <GUITextWindowEdge>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Height>10</Height>
-                <ID>1</ID>
-                <Image>0</Image>
-                <Left>0</Left>
-                <Locked>False</Locked>
-                <Name />
-                <Top>90</Top>
-                <Translated>True</Translated>
-                <Visible>False</Visible>
-                <Width>10</Width>
-                <ZOrder>1</ZOrder>
-              </GUITextWindowEdge>
-              <GUITextWindowEdge>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Height>10</Height>
-                <ID>2</ID>
-                <Image>0</Image>
-                <Left>90</Left>
-                <Locked>False</Locked>
-                <Name />
-                <Top>0</Top>
-                <Translated>True</Translated>
-                <Visible>False</Visible>
-                <Width>10</Width>
-                <ZOrder>2</ZOrder>
-              </GUITextWindowEdge>
-              <GUITextWindowEdge>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Height>10</Height>
-                <ID>3</ID>
-                <Image>0</Image>
-                <Left>90</Left>
-                <Locked>False</Locked>
-                <Name />
-                <Top>90</Top>
-                <Translated>True</Translated>
-                <Visible>False</Visible>
-                <Width>10</Width>
-                <ZOrder>3</ZOrder>
-              </GUITextWindowEdge>
-              <GUITextWindowEdge>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Height>10</Height>
-                <ID>4</ID>
-                <Image>0</Image>
-                <Left>0</Left>
-                <Locked>False</Locked>
-                <Name />
-                <Top>40</Top>
-                <Translated>True</Translated>
-                <Visible>False</Visible>
-                <Width>10</Width>
-                <ZOrder>4</ZOrder>
-              </GUITextWindowEdge>
-              <GUITextWindowEdge>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Height>10</Height>
-                <ID>5</ID>
-                <Image>0</Image>
-                <Left>90</Left>
-                <Locked>False</Locked>
-                <Name />
-                <Top>40</Top>
-                <Translated>True</Translated>
-                <Visible>False</Visible>
-                <Width>10</Width>
-                <ZOrder>5</ZOrder>
-              </GUITextWindowEdge>
-              <GUITextWindowEdge>
-                <Clickable>True</Clickable>
-                <Enabled>True</Enabled>
-                <Height>10</Height>
-                <ID>6</ID>
-                <Image>0</Image>
-                <Left>40</Left>
-                <Locked>False</Locked>
-                <Name />
-                <Top>0</Top>
-                <Translated>True</Translated>
-                <Visible>False</Visible>
-                <Width>10</Width>
-                <ZOrder>6</ZOrder>
-              </GUITextWindowEdge>
-              <GUITextWindowEdge>
-                <Clickable>True</Clickable>
-                <Enabled>False</Enabled>
-                <Height>10</Height>
-                <ID>7</ID>
-                <Image>0</Image>
-                <Left>40</Left>
-                <Locked>False</Locked>
-                <Name />
-                <Top>90</Top>
-                <Translated>True</Translated>
-                <Visible>False</Visible>
-                <Width>10</Width>
-                <ZOrder>7</ZOrder>
-              </GUITextWindowEdge>
-            </Controls>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>False</Visible>
+              <Width>640</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls />
           </GUIMain>
         </GUIs>
       </GUIFolder>
@@ -1852,7 +1741,7 @@
             <IdleDelay>20</IdleDelay>
             <IdleView>0</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>2</MovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <NormalView>13</NormalView>
@@ -1915,7 +1804,7 @@
             <TurnWhenFacing>True</TurnWhenFacing>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaScaling>False</UseRoomAreaScaling>
             <Interactions>
               <ScriptModule>GlobalScript.asc</ScriptModule>
               <Event Index="0" />
@@ -1940,7 +1829,7 @@
             <IdleDelay>20</IdleDelay>
             <IdleView>0</IdleView>
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <MovementSpeed>1</MovementSpeed>
+            <MovementSpeed>2</MovementSpeed>
             <MovementSpeedX>5</MovementSpeedX>
             <MovementSpeedY>5</MovementSpeedY>
             <NormalView>18</NormalView>
@@ -1959,7 +1848,7 @@
             <TurnWhenFacing>True</TurnWhenFacing>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaScaling>False</UseRoomAreaScaling>
             <Interactions>
               <ScriptModule>GlobalScript.asc</ScriptModule>
               <Event Index="0" />
@@ -2590,6 +2479,13 @@
           <ArrayType>None</ArrayType>
           <DefaultValue>false</DefaultValue>
           <Name>puzleRoom1Completado</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <ArraySize>0</ArraySize>
+          <ArrayType>None</ArrayType>
+          <DefaultValue>false</DefaultValue>
+          <Name>dialogoConTotoroCompletado</Name>
           <Type>bool</Type>
         </GlobalVariable>
       </Variables>
@@ -5576,6 +5472,27 @@
                       </Sprite>
                     </Sprites>
                   </SpriteFolder>
+                  <SpriteFolder Name="TotoroCabeza">
+                    <SubFolders />
+                    <Sprites>
+                      <Sprite Slot="265" Width="30" Height="35" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                        <Source>
+                          <FileName>recursosArte/personajes/Totoro/TotoroCabeza/TotoroCabeza.png</FileName>
+                          <OffsetX>0</OffsetX>
+                          <OffsetY>0</OffsetY>
+                          <ImportHeight>35</ImportHeight>
+                          <ImportWidth>30</ImportWidth>
+                          <ImportAsTile>False</ImportAsTile>
+                          <Frame>0</Frame>
+                          <RemapToGamePalette>True</RemapToGamePalette>
+                          <RemapToRoomPalette>False</RemapToRoomPalette>
+                          <ImportMethod>TopLeft</ImportMethod>
+                          <TransparentColorIndex>0</TransparentColorIndex>
+                          <ImportAlphaChannel>True</ImportAlphaChannel>
+                        </Source>
+                      </Sprite>
+                    </Sprites>
+                  </SpriteFolder>
                 </SubFolders>
                 <Sprites />
               </SpriteFolder>
@@ -6586,6 +6503,22 @@
                   <OffsetY>0</OffsetY>
                   <ImportHeight>64</ImportHeight>
                   <ImportWidth>160</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="266" Width="640" Height="400" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>recursosArte/UI/Lluvia.PNG</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>400</ImportHeight>
+                  <ImportWidth>640</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>True</RemapToGamePalette>
@@ -9212,7 +9145,7 @@
             <ScriptAndHeader_Script>
               <Script>
                 <FileName>GlobalScript.asc</FileName>
-                <Name>vegetacion</Name>
+                <Name>imgDi</Name>
                 <Description />
                 <Author />
                 <Version />
@@ -9253,6 +9186,32 @@
                 <SourceFileName xml:space="preserve">recursosArte/Sonidos/Voicy_Animal Crossing Isabelle Voice Clips.mp3</SourceFileName>
                 <Type>3</Type>
                 <FileLastModifiedDate>2025-12-15 20:20:19Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>1</ID>
+                <Index>3</Index>
+                <ScriptName>sAbrirPuertaArmario</ScriptName>
+                <SourceFileName>recursosArte/Sonidos/abrirPuertaArmario.mp3</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2026-01-08 21:05:17Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InGameEXE</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>2</ID>
+                <Index>4</Index>
+                <ScriptName>sCerrarPuertaArmario</ScriptName>
+                <SourceFileName>recursosArte/Sonidos/cerrarPuertaArmario.mp3</SourceFileName>
+                <Type>3</Type>
+                <FileLastModifiedDate>2026-01-08 21:05:42Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
