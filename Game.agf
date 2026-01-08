@@ -1375,7 +1375,7 @@
               <Event Index="0" />
               <Event Index="1" />
               <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="3">iPalo_UseInv</Event>
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
@@ -1451,7 +1451,7 @@
               <Event Index="0" />
               <Event Index="1" />
               <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="3">iCuerda_UseInv</Event>
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
@@ -1470,7 +1470,7 @@
               <Event Index="0" />
               <Event Index="1" />
               <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="3">iHebras_UseInv</Event>
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
