@@ -1226,7 +1226,7 @@
               <Event Index="0" />
               <Event Index="1" />
               <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="3">iGrupoBellotas_UseInv</Event>
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
@@ -1321,7 +1321,7 @@
               <Event Index="0" />
               <Event Index="1" />
               <Event Index="2" />
-              <Event Index="3" />
+              <Event Index="3">iHojaPequena_UseInv</Event>
               <Event Index="4" />
             </Interactions>
           </InventoryItem>
@@ -1371,6 +1371,25 @@
             <ID>10</ID>
             <Image>159</Image>
             <Name>iEscoba</Name>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <Properties />
+            <Interactions>
+              <ScriptModule>GlobalScript.asc</ScriptModule>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <CursorImage>157</CursorImage>
+            <Description xml:space="preserve">BELLOTAS ENVUELTAS</Description>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <ID>11</ID>
+            <Image>157</Image>
+            <Name>iBellotasEnvueltas</Name>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
             <Properties />
             <Interactions>
