@@ -754,7 +754,7 @@
                 <Height>42</Height>
                 <ID>0</ID>
                 <Image>22</Image>
-                <Left>197</Left>
+                <Left>220</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem1</Name>
@@ -766,7 +766,7 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>162</Top>
+                <Top>180</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>40</Width>
@@ -782,7 +782,7 @@
                 <Height>42</Height>
                 <ID>1</ID>
                 <Image>22</Image>
-                <Left>251</Left>
+                <Left>274</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem2</Name>
@@ -794,7 +794,7 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>162</Top>
+                <Top>180</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>40</Width>
@@ -810,7 +810,7 @@
                 <Height>42</Height>
                 <ID>2</ID>
                 <Image>22</Image>
-                <Left>303</Left>
+                <Left>326</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem3</Name>
@@ -822,7 +822,7 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>162</Top>
+                <Top>180</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>40</Width>
@@ -838,7 +838,7 @@
                 <Height>42</Height>
                 <ID>3</ID>
                 <Image>22</Image>
-                <Left>197</Left>
+                <Left>220</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem4</Name>
@@ -850,7 +850,7 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>208</Top>
+                <Top>227</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>40</Width>
@@ -866,7 +866,7 @@
                 <Height>42</Height>
                 <ID>4</ID>
                 <Image>22</Image>
-                <Left>197</Left>
+                <Left>220</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem5</Name>
@@ -878,7 +878,7 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>253</Top>
+                <Top>271</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>40</Width>
@@ -894,7 +894,7 @@
                 <Height>42</Height>
                 <ID>5</ID>
                 <Image>22</Image>
-                <Left>251</Left>
+                <Left>274</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem6</Name>
@@ -906,7 +906,7 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>253</Top>
+                <Top>271</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>40</Width>
@@ -922,7 +922,7 @@
                 <Height>42</Height>
                 <ID>6</ID>
                 <Image>22</Image>
-                <Left>251</Left>
+                <Left>274</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem7</Name>
@@ -934,7 +934,7 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>208</Top>
+                <Top>226</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>40</Width>
@@ -950,7 +950,7 @@
                 <Height>42</Height>
                 <ID>7</ID>
                 <Image>22</Image>
-                <Left>303</Left>
+                <Left>326</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem8</Name>
@@ -962,7 +962,7 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>208</Top>
+                <Top>226</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>40</Width>
@@ -978,7 +978,7 @@
                 <Height>42</Height>
                 <ID>8</ID>
                 <Image>22</Image>
-                <Left>303</Left>
+                <Left>326</Left>
                 <Locked>False</Locked>
                 <MouseoverImage>0</MouseoverImage>
                 <Name>bBotonItem9</Name>
@@ -990,7 +990,7 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>253</Top>
+                <Top>271</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>40</Width>
@@ -1001,17 +1001,17 @@
                 <CharacterID>-1</CharacterID>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>121</Height>
+                <Height>124</Height>
                 <ID>9</ID>
                 <ItemHeight>20</ItemHeight>
                 <ItemWidth>30</ItemWidth>
-                <Left>202</Left>
+                <Left>225</Left>
                 <Locked>False</Locked>
                 <Name>InventarioHueco1</Name>
-                <Top>167</Top>
+                <Top>186</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>138</Width>
+                <Width>139</Width>
                 <ZOrder>9</ZOrder>
               </GUIInventory>
               <GUIButton>
@@ -1347,8 +1347,8 @@
           <InventoryItem>
             <CursorImage>263</CursorImage>
             <Description>HEBRAS</Description>
-            <HotspotX>13</HotspotX>
-            <HotspotY>5</HotspotY>
+            <HotspotX>1</HotspotX>
+            <HotspotY>8</HotspotY>
             <ID>9</ID>
             <Image>263</Image>
             <Name>iHebras</Name>
@@ -1404,8 +1404,8 @@
           <InventoryItem>
             <CursorImage>267</CursorImage>
             <Description xml:space="preserve">PALO Y CUERDA</Description>
-            <HotspotX>23</HotspotX>
-            <HotspotY>5</HotspotY>
+            <HotspotX>21</HotspotX>
+            <HotspotY>19</HotspotY>
             <ID>12</ID>
             <Image>267</Image>
             <Name>iPaloCuerda</Name>
@@ -1423,8 +1423,8 @@
           <InventoryItem>
             <CursorImage>268</CursorImage>
             <Description xml:space="preserve">PALO Y HEBRA</Description>
-            <HotspotX>22</HotspotX>
-            <HotspotY>6</HotspotY>
+            <HotspotX>16</HotspotX>
+            <HotspotY>17</HotspotY>
             <ID>13</ID>
             <Image>268</Image>
             <Name>iPaloHebra</Name>
@@ -1442,8 +1442,8 @@
           <InventoryItem>
             <CursorImage>269</CursorImage>
             <Description xml:space="preserve">CUERDA Y HEBRA</Description>
-            <HotspotX>4</HotspotX>
-            <HotspotY>2</HotspotY>
+            <HotspotX>21</HotspotX>
+            <HotspotY>17</HotspotY>
             <ID>14</ID>
             <Image>269</Image>
             <Name>iHebraCuerda</Name>
@@ -2647,6 +2647,13 @@
           <DefaultValue>false</DefaultValue>
           <Name>puzleRoom3ParaguasCompletado</Name>
           <Type>bool</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <ArraySize>0</ArraySize>
+          <ArrayType>None</ArrayType>
+          <DefaultValue>0</DefaultValue>
+          <Name>gLlaveDown</Name>
+          <Type>int</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
