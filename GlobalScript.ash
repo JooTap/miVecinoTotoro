@@ -3,8 +3,6 @@
 // place import definitions and #define names here to be used by all
 // scripts.
 
-// He visto que aqui se ponen los metodos propios que si que pueden ser invocados desde los scripts de las rooms
-
 // Metodo para imprimir el dialogo
 function mostrarDialogo(String texto) {
   
@@ -74,14 +72,40 @@ function dialogoRoom1(){
   
   cSatsuki.ChangeView(1);
   
-  imgDialogo.Visible = false;
-  gDialogos.Visible = false;
-  
 }
 
-function dialogoRoom3(){
+//Dialogo vuelta a la room 1
+function dialogoVueltaRoom1(){
   
-  imgDialogo.Visible = true;
+  imgDialogo.BackgroundGraphic = 148;// Satsuki
+    
+  mostrarDialogo("¡Ya llegué! Qué hambre tengo… ");
+  mostrarDialogo("¡Hola Mei!");
+    
+  imgDialogo.BackgroundGraphic = 150; //Mei
+  mostrarDialogo("¡Satsuki no vas a creer lo que he visto! He salido al jardín a explorar mientras papá trabajaba.");
+  mostrarDialogo("He encontrado a unos Totoros pequeñitos, como los del cuento de la abuela.");
+    
+  // Se sienta al lado de Mei
+  cSatsuki.Walk(253, 304, eBlock, eWalkableAreas);
+  cSatsuki.Walk(34, 338, eBlock, eWalkableAreas);
+  cSatsuki.ChangeView(6);
+    
+  imgDialogo.BackgroundGraphic = 148;
+  mostrarDialogo("¿Unos Totoros pequeños? ¿Cómo los has encontrado?");
+    
+  imgDialogo.BackgroundGraphic = 150; //Mei
+  mostrarDialogo("He seguido un rastro de bellotas.");
+    
+  imgDialogo.BackgroundGraphic = 148;
+  mostrarDialogo("No puedo creer que me los haya perdido. Prométeme que la próxima vez que los encuentres me llevarás contigo.");
+    
+  imgDialogo.BackgroundGraphic = 150; //Mei
+  mostrarDialogo("No estés triste Satsuki. Te prometo que la próxima vez los verás tú también.");
+}
+
+//Dialogo de inicio de la room 3
+function dialogoRoom3(){
   
   imgDialogo.BackgroundGraphic = 148; // Satsuki
   mostrarDialogo("Vamos Mei, tenemos que llevarle este paraguas a papá antes de que su bus llegue a la parada.");
@@ -89,16 +113,11 @@ function dialogoRoom3(){
   imgDialogo.BackgroundGraphic = 150; //Mei
   mostrarDialogo("¡Si, está lloviendo mucho! ");
   
-  imgDialogo.Visible = false;
-  gDialogos.Visible = false;
-  
 }
 
 function dialogo2Room3(){
   
-  imgDialogo.Visible = true;
   imgDialogo.BackgroundGraphic = 148; // Satsuki
-  
   mostrarDialogo("Mei, ¿Tienes sueño?");
   
   imgDialogo.BackgroundGraphic = 150; // Mei
@@ -108,22 +127,15 @@ function dialogo2Room3(){
   mostrarDialogo("Papá tiene que estar ya a punto de llegar, aguanta un poco.");
   mostrarDialogo("¿Por qué estará tardando tanto? ¿Habrá pasado algo?");
   
-  
-  imgDialogo.Visible = false;
-  gDialogos.Visible = false;
 }
 
 function dialogo3Room3(){
   
-  imgDialogo.Visible = true;
   imgDialogo.BackgroundGraphic = 150; // Mei
   mostrarDialogo("Papá no estaba ahí.");
   
   imgDialogo.BackgroundGraphic = 148; // Satsuki
   mostrarDialogo("No te preocupes, llegará pronto.");
-  
-  imgDialogo.Visible = false;
-  gDialogos.Visible = false;
   
 }
 
