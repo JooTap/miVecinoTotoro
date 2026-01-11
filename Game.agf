@@ -2067,7 +2067,7 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>-142</StartX>
+            <StartX>-200</StartX>
             <StartY>369</StartY>
             <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
@@ -2111,7 +2111,7 @@
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <SpeechView>0</SpeechView>
-            <StartX>-114</StartX>
+            <StartX>-200</StartX>
             <StartY>348</StartY>
             <StartingRoom>3</StartingRoom>
             <ThinkingView>0</ThinkingView>
