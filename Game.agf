@@ -850,7 +850,7 @@
                 <TextColor>0</TextColor>
                 <TextPaddingHorizontal>2</TextPaddingHorizontal>
                 <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>227</Top>
+                <Top>226</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
                 <Width>40</Width>
@@ -1001,17 +1001,17 @@
                 <CharacterID>-1</CharacterID>
                 <Clickable>True</Clickable>
                 <Enabled>True</Enabled>
-                <Height>124</Height>
+                <Height>130</Height>
                 <ID>9</ID>
-                <ItemHeight>20</ItemHeight>
-                <ItemWidth>30</ItemWidth>
-                <Left>225</Left>
+                <ItemHeight>50</ItemHeight>
+                <ItemWidth>49</ItemWidth>
+                <Left>229</Left>
                 <Locked>False</Locked>
                 <Name>InventarioHueco1</Name>
-                <Top>186</Top>
+                <Top>187</Top>
                 <Translated>True</Translated>
                 <Visible>True</Visible>
-                <Width>139</Width>
+                <Width>151</Width>
                 <ZOrder>9</ZOrder>
               </GUIInventory>
               <GUIButton>
