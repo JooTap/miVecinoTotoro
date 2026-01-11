@@ -137,6 +137,7 @@ function dialogo3Room3(){
   imgDialogo.BackgroundGraphic = 148; // Satsuki
   mostrarDialogo("No te preocupes, llegará pronto.");
   
+  gBusHaPasado = 1;
 }
 
 function dialogoMeiSinCuerda(){
@@ -157,6 +158,7 @@ function dialogoMeiSinCuerda(){
   
   //Le da la cuerda
   cSatsuki.AddInventory(iCuerda);
+  gTengoCuerda = 1;
   
   imgDialogo.BackgroundGraphic = 148;
   mostrarDialogo("¡Bien! ¡Muchas gracias, Mei!");

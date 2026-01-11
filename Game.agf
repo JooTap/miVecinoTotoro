@@ -2658,9 +2658,16 @@
         <GlobalVariable>
           <ArraySize>0</ArraySize>
           <ArrayType>None</ArrayType>
-          <DefaultValue>false</DefaultValue>
+          <DefaultValue>0</DefaultValue>
           <Name>gTengoCuerda</Name>
-          <Type>bool</Type>
+          <Type>int</Type>
+        </GlobalVariable>
+        <GlobalVariable>
+          <ArraySize>0</ArraySize>
+          <ArrayType>None</ArrayType>
+          <DefaultValue>0</DefaultValue>
+          <Name>gBusHaPasado</Name>
+          <Type>int</Type>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
