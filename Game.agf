@@ -2655,6 +2655,13 @@
           <Name>gLlaveDown</Name>
           <Type>int</Type>
         </GlobalVariable>
+        <GlobalVariable>
+          <ArraySize>0</ArraySize>
+          <ArrayType>None</ArrayType>
+          <DefaultValue>false</DefaultValue>
+          <Name>gTengoCuerda</Name>
+          <Type>bool</Type>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
