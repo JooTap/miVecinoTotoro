@@ -12,7 +12,7 @@
       <AntiAliasFonts>True</AntiAliasFonts>
       <AntiGlideMode>True</AntiGlideMode>
       <AttachDataToExe>False</AttachDataToExe>
-      <AudioIndexer>4</AudioIndexer>
+      <AudioIndexer>6</AudioIndexer>
       <AutoMoveInWalkMode>True</AutoMoveInWalkMode>
       <BackwardsText>False</BackwardsText>
       <BuildTargets>Windows</BuildTargets>
@@ -655,6 +655,10 @@
         <SubFolders />
         <UnloadedRooms>
           <UnloadedRoom>
+            <Description>menuInicio</Description>
+            <Number>0</Number>
+          </UnloadedRoom>
+          <UnloadedRoom>
             <Description>casa_salon</Description>
             <Number>1</Number>
           </UnloadedRoom>
@@ -665,10 +669,6 @@
           <UnloadedRoom>
             <Description>paradaDeBus</Description>
             <Number>3</Number>
-          </UnloadedRoom>
-          <UnloadedRoom>
-            <Description>menuInicio</Description>
-            <Number>4</Number>
           </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
@@ -1115,34 +1115,6 @@
                 <Width>430</Width>
                 <ZOrder>0</ZOrder>
               </GUILabel>
-              <GUIButton>
-                <ClickAction>RunScript</ClickAction>
-                <Clickable>True</Clickable>
-                <ClipImage>False</ClipImage>
-                <Enabled>True</Enabled>
-                <Font>0</Font>
-                <Height>20</Height>
-                <ID>1</ID>
-                <Image>151</Image>
-                <Left>599</Left>
-                <Locked>False</Locked>
-                <MouseoverImage>0</MouseoverImage>
-                <Name>bSiguiete</Name>
-                <NewModeNumber>0</NewModeNumber>
-                <OnClick />
-                <PushedImage>0</PushedImage>
-                <Text />
-                <TextAlignment>MiddleCenter</TextAlignment>
-                <TextColor>0</TextColor>
-                <TextPaddingHorizontal>2</TextPaddingHorizontal>
-                <TextPaddingVertical>2</TextPaddingVertical>
-                <Top>350</Top>
-                <Translated>True</Translated>
-                <Visible>True</Visible>
-                <Width>18</Width>
-                <WrapText>False</WrapText>
-                <ZOrder>1</ZOrder>
-              </GUIButton>
             </Controls>
           </GUIMain>
           <GUIMain>
@@ -1191,9 +1163,9 @@
           </GUIMain>
           <GUIMain>
             <NormalGUI>
-              <BackgroundColor>8</BackgroundColor>
+              <BackgroundColor>0</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
-              <BorderColor>2</BorderColor>
+              <BorderColor>0</BorderColor>
               <Clickable>True</Clickable>
               <Height>400</Height>
               <ID>5</ID>
@@ -1204,7 +1176,7 @@
               <PopupYPos>0</PopupYPos>
               <ScriptModule>GlobalScript.asc</ScriptModule>
               <Top>0</Top>
-              <Transparency>50</Transparency>
+              <Transparency>0</Transparency>
               <Visible>False</Visible>
               <Width>640</Width>
               <ZOrder>0</ZOrder>
@@ -1240,7 +1212,7 @@
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
-                <Clickable>True</Clickable>
+                <Clickable>False</Clickable>
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
@@ -1268,7 +1240,7 @@
               </GUIButton>
               <GUIButton>
                 <ClickAction>RunScript</ClickAction>
-                <Clickable>True</Clickable>
+                <Clickable>False</Clickable>
                 <ClipImage>False</ClipImage>
                 <Enabled>True</Enabled>
                 <Font>0</Font>
@@ -1294,6 +1266,141 @@
                 <WrapText>False</WrapText>
                 <ZOrder>2</ZOrder>
               </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>32</Height>
+                <ID>3</ID>
+                <Image>272</Image>
+                <Left>489</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>bVolver</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>bVolver_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>Volver</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>355</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>136</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>3</ZOrder>
+              </GUIButton>
+            </Controls>
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>0</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BorderColor>0</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>400</Height>
+              <ID>6</ID>
+              <Left>0</Left>
+              <Name>gMenuInicio</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ScriptModule>GlobalScript.asc</ScriptModule>
+              <Top>0</Top>
+              <Transparency>0</Transparency>
+              <Visible>True</Visible>
+              <Width>640</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>32</Height>
+                <ID>0</ID>
+                <Image>272</Image>
+                <Left>242</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>bInicio</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>bInicio_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">Iniciar juego</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>153</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>136</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>0</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>32</Height>
+                <ID>1</ID>
+                <Image>272</Image>
+                <Left>242</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>bControles</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>bControles_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>Controles</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>201</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>136</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>1</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>32</Height>
+                <ID>2</ID>
+                <Image>272</Image>
+                <Left>242</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>bSalir</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick>bSalir_OnClick</OnClick>
+                <PushedImage>0</PushedImage>
+                <Text>Salir</Text>
+                <TextAlignment>MiddleCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>250</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>136</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>2</ZOrder>
+              </GUIButton>
             </Controls>
           </GUIMain>
         </GUIs>
@@ -1306,8 +1413,8 @@
           <InventoryItem>
             <CursorImage>17</CursorImage>
             <Description>BELLOTA</Description>
-            <HotspotX>5</HotspotX>
-            <HotspotY>4</HotspotY>
+            <HotspotX>8</HotspotX>
+            <HotspotY>8</HotspotY>
             <ID>1</ID>
             <Image>17</Image>
             <Name>iBellota</Name>
@@ -1325,8 +1432,8 @@
           <InventoryItem>
             <CursorImage>18</CursorImage>
             <Description xml:space="preserve">GRUPO BELLOTAS</Description>
-            <HotspotX>2</HotspotX>
-            <HotspotY>3</HotspotY>
+            <HotspotX>10</HotspotX>
+            <HotspotY>10</HotspotY>
             <ID>2</ID>
             <Image>18</Image>
             <Name>iGrupoBellotas</Name>
@@ -1344,7 +1451,7 @@
           <InventoryItem>
             <CursorImage>19</CursorImage>
             <Description>LLAVE</Description>
-            <HotspotX>15</HotspotX>
+            <HotspotX>10</HotspotX>
             <HotspotY>8</HotspotY>
             <ID>3</ID>
             <Image>19</Image>
@@ -1382,8 +1489,8 @@
           <InventoryItem>
             <CursorImage>156</CursorImage>
             <Description>PIEDRA</Description>
-            <HotspotX>4</HotspotX>
-            <HotspotY>7</HotspotY>
+            <HotspotX>9</HotspotX>
+            <HotspotY>10</HotspotY>
             <ID>5</ID>
             <Image>156</Image>
             <Name>iPiedra</Name>
@@ -1401,8 +1508,8 @@
           <InventoryItem>
             <CursorImage>146</CursorImage>
             <Description xml:space="preserve">HOJA ARBOL</Description>
-            <HotspotX>10</HotspotX>
-            <HotspotY>1</HotspotY>
+            <HotspotX>12</HotspotX>
+            <HotspotY>12</HotspotY>
             <ID>6</ID>
             <Image>146</Image>
             <Name>iHojaArbol</Name>
@@ -1420,8 +1527,8 @@
           <InventoryItem>
             <CursorImage>153</CursorImage>
             <Description xml:space="preserve">HOJA PEQUEÑA</Description>
-            <HotspotX>14</HotspotX>
-            <HotspotY>2</HotspotY>
+            <HotspotX>12</HotspotX>
+            <HotspotY>13</HotspotY>
             <ID>7</ID>
             <Image>153</Image>
             <Name>iHojaPequena</Name>
@@ -1439,8 +1546,8 @@
           <InventoryItem>
             <CursorImage>158</CursorImage>
             <Description>CUERDA</Description>
-            <HotspotX>2</HotspotX>
-            <HotspotY>2</HotspotY>
+            <HotspotX>9</HotspotX>
+            <HotspotY>8</HotspotY>
             <ID>8</ID>
             <Image>158</Image>
             <Name>iCuerda</Name>
@@ -1458,8 +1565,8 @@
           <InventoryItem>
             <CursorImage>263</CursorImage>
             <Description>HEBRAS</Description>
-            <HotspotX>1</HotspotX>
-            <HotspotY>8</HotspotY>
+            <HotspotX>11</HotspotX>
+            <HotspotY>13</HotspotY>
             <ID>9</ID>
             <Image>263</Image>
             <Name>iHebras</Name>
@@ -1477,8 +1584,8 @@
           <InventoryItem>
             <CursorImage>159</CursorImage>
             <Description>ESCOBA</Description>
-            <HotspotX>18</HotspotX>
-            <HotspotY>1</HotspotY>
+            <HotspotX>10</HotspotX>
+            <HotspotY>9</HotspotY>
             <ID>10</ID>
             <Image>159</Image>
             <Name>iEscoba</Name>
@@ -1534,8 +1641,8 @@
           <InventoryItem>
             <CursorImage>268</CursorImage>
             <Description xml:space="preserve">PALO Y HEBRA</Description>
-            <HotspotX>16</HotspotX>
-            <HotspotY>17</HotspotY>
+            <HotspotX>20</HotspotX>
+            <HotspotY>19</HotspotY>
             <ID>13</ID>
             <Image>268</Image>
             <Name>iPaloHebra</Name>
@@ -1554,7 +1661,7 @@
             <CursorImage>269</CursorImage>
             <Description xml:space="preserve">CUERDA Y HEBRA</Description>
             <HotspotX>21</HotspotX>
-            <HotspotY>17</HotspotY>
+            <HotspotY>19</HotspotY>
             <ID>14</ID>
             <Image>269</Image>
             <Name>iHebraCuerda</Name>
@@ -6655,7 +6762,24 @@
           </SpriteFolder>
           <SpriteFolder Name="fondos">
             <SubFolders />
-            <Sprites />
+            <Sprites>
+              <Sprite Slot="273" Width="640" Height="400" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>recursosArte/Fondos/fondoInicio.PNG</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>400</ImportHeight>
+                  <ImportWidth>640</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
           </SpriteFolder>
           <SpriteFolder Name="UI">
             <SubFolders />
@@ -6804,22 +6928,6 @@
                   <ImportAlphaChannel>True</ImportAlphaChannel>
                 </Source>
               </Sprite>
-              <Sprite Slot="152" Width="160" Height="64" ColorDepth="16" Resolution="Real" AlphaChannel="False">
-                <Source>
-                  <FileName>recursosArte/UI/UI_NameBox.png</FileName>
-                  <OffsetX>0</OffsetX>
-                  <OffsetY>0</OffsetY>
-                  <ImportHeight>64</ImportHeight>
-                  <ImportWidth>160</ImportWidth>
-                  <ImportAsTile>False</ImportAsTile>
-                  <Frame>0</Frame>
-                  <RemapToGamePalette>True</RemapToGamePalette>
-                  <RemapToRoomPalette>False</RemapToRoomPalette>
-                  <ImportMethod>TopLeft</ImportMethod>
-                  <TransparentColorIndex>0</TransparentColorIndex>
-                  <ImportAlphaChannel>True</ImportAlphaChannel>
-                </Source>
-              </Sprite>
               <Sprite Slot="266" Width="640" Height="400" ColorDepth="16" Resolution="Real" AlphaChannel="False">
                 <Source>
                   <FileName>recursosArte/UI/Lluvia.PNG</FileName>
@@ -6843,6 +6951,38 @@
                   <OffsetY>0</OffsetY>
                   <ImportHeight>300</ImportHeight>
                   <ImportWidth>450</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="272" Width="136" Height="32" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>recursosArte/UI/UI_NameBox.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>32</ImportHeight>
+                  <ImportWidth>136</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>LeaveAsIs</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="152" Width="233" Height="99" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>recursosArte/UI/Mi_vecino_totoro_Logo.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>99</ImportHeight>
+                  <ImportWidth>233</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>True</RemapToGamePalette>
@@ -9534,7 +9674,34 @@
         <SubFolders>
           <AudioClipFolder Name="Music">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>True</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>3</ID>
+                <Index>5</Index>
+                <ScriptName>sAmbiente_Room01</ScriptName>
+                <SourceFileName>recursosArte/Sonidos/Ambiente_Room01.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2026-01-12 14:45:19Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>True</DefaultRepeat>
+                <DefaultVolume>-1</DefaultVolume>
+                <FileType>MP3</FileType>
+                <ID>4</ID>
+                <Index>6</Index>
+                <ScriptName>sAmbiente_Room02</ScriptName>
+                <SourceFileName>recursosArte/Sonidos/Ambiente_Room02.mp3</SourceFileName>
+                <Type>2</Type>
+                <FileLastModifiedDate>2026-01-12 14:46:04Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultBundlingType>InSeparateVOX</DefaultBundlingType>
               <DefaultPriority>Inherit</DefaultPriority>
