@@ -666,6 +666,10 @@
             <Description>paradaDeBus</Description>
             <Number>3</Number>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Description>menuInicio</Description>
+            <Number>4</Number>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
@@ -1184,6 +1188,113 @@
               <ZOrder>0</ZOrder>
             </NormalGUI>
             <Controls />
+          </GUIMain>
+          <GUIMain>
+            <NormalGUI>
+              <BackgroundColor>8</BackgroundColor>
+              <BackgroundImage>0</BackgroundImage>
+              <BorderColor>2</BorderColor>
+              <Clickable>True</Clickable>
+              <Height>400</Height>
+              <ID>5</ID>
+              <Left>0</Left>
+              <Name>gGuiControles</Name>
+              <OnClick />
+              <PopupStyle>Normal</PopupStyle>
+              <PopupYPos>0</PopupYPos>
+              <ScriptModule>GlobalScript.asc</ScriptModule>
+              <Top>0</Top>
+              <Transparency>50</Transparency>
+              <Visible>False</Visible>
+              <Width>640</Width>
+              <ZOrder>0</ZOrder>
+            </NormalGUI>
+            <Controls>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>False</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>300</Height>
+                <ID>0</ID>
+                <Image>271</Image>
+                <Left>73</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Controles</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>42</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>450</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>0</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>1</ID>
+                <Image>17</Image>
+                <Left>194</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>bellota1</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>49</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>20</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>1</ZOrder>
+              </GUIButton>
+              <GUIButton>
+                <ClickAction>RunScript</ClickAction>
+                <Clickable>True</Clickable>
+                <ClipImage>False</ClipImage>
+                <Enabled>True</Enabled>
+                <Font>0</Font>
+                <Height>20</Height>
+                <ID>2</ID>
+                <Image>17</Image>
+                <Left>395</Left>
+                <Locked>False</Locked>
+                <MouseoverImage>0</MouseoverImage>
+                <Name>Button1</Name>
+                <NewModeNumber>0</NewModeNumber>
+                <OnClick />
+                <PushedImage>0</PushedImage>
+                <Text xml:space="preserve">New Button</Text>
+                <TextAlignment>TopCenter</TextAlignment>
+                <TextColor>0</TextColor>
+                <TextPaddingHorizontal>2</TextPaddingHorizontal>
+                <TextPaddingVertical>2</TextPaddingVertical>
+                <Top>49</Top>
+                <Translated>True</Translated>
+                <Visible>True</Visible>
+                <Width>20</Width>
+                <WrapText>False</WrapText>
+                <ZOrder>2</ZOrder>
+              </GUIButton>
+            </Controls>
           </GUIMain>
         </GUIs>
       </GUIFolder>
@@ -6716,6 +6827,22 @@
                   <OffsetY>0</OffsetY>
                   <ImportHeight>400</ImportHeight>
                   <ImportWidth>640</ImportWidth>
+                  <ImportAsTile>False</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>True</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <TransparentColorIndex>0</TransparentColorIndex>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="271" Width="450" Height="300" ColorDepth="16" Resolution="Real" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\_UNIVERSIDAD\controlesMenu.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>300</ImportHeight>
+                  <ImportWidth>450</ImportWidth>
                   <ImportAsTile>False</ImportAsTile>
                   <Frame>0</Frame>
                   <RemapToGamePalette>True</RemapToGamePalette>
